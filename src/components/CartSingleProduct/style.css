@@ -1,0 +1,139 @@
+.cart_prod {
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 15px 40px 15px;
+}
+
+.cart_prod_img {
+    width: 200px;
+    height: 265px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.cart_prod_img:hover {
+    transition: 0.2s;
+    transform: scale(1.06);
+}
+
+.cart_prod_main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart_prod_info {
+    margin-left: 50px;
+    font-size: 19px;
+    cursor: default;
+}
+
+.cart_prod_info {
+    cursor: pointer;
+}
+
+.cart_prods_price {
+    margin-top: 5px;
+    color: rgb(134, 110, 62)
+}
+
+.cart_prod_buttons {
+    display: flex;
+    align-items: center;
+}
+
+.cart_prod_quantity {
+    width: 70px;
+    display: flex;
+    align-items: center;
+    border: 3px solid rgb(143, 119, 70);
+    border-radius: 4px;
+}
+
+.cart_prod_quantity button {
+    background-color: transparent;
+    margin: 0;
+    padding: 12px 8px;
+    border-radius: 0;
+}
+
+.cart_prod_quantity p {
+    margin: 0 5px;
+    min-width: 13px;
+    height: 19px;
+    text-align: center;
+    cursor: default;
+}
+
+.cart_prod_trash {
+    width: 40px;
+    margin: 0 0 5px 40px;
+    cursor: pointer;
+}
+
+/* Login Overlay */
+
+.login_overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2000;
+    display: block;
+}
+
+.login_main_overlay {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.login_main_div_overlay {
+    width: 500px;
+    background-color: rgb(255, 253, 250);
+    padding: 50px;
+}
+
+.login_failed_div_overlay {
+    height: 100%;
+    z-index: 2000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 45px;
+    margin: 180px 0 70px;
+}
+
+.login_failed_div_overlay {
+    margin: 35px 0 0 0;
+}
+
+.close_overlay {
+    text-align: center;
+  
+}
+
+.close_overlay button {
+    margin-bottom: 0;
+    background-color: rgb(253, 245, 229);
+}
+
+/*
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}*/

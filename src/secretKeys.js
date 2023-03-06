@@ -1,0 +1,5 @@
+export const idKey = "8gw7urefe87w8w7eygbwe9h7tyvyuGYVUY"
+export const roleKey = "yugvuyVuyvvYUvyiBYIbiyBIUbuYbiub"
+export const tokenKey = "jyBUYFtu3$%TVWV$%&YERYTfdszberfd8aged"
+export const cartKey = "vytvYTVyuBYVBYU676T8BV6r7TGYN87BF75"
+export const wishListKey = "uyyuVYUBYb87g676vr76T7B6TR76t"

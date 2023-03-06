@@ -1,0 +1,52 @@
+.single_product_wish {
+    display: flex;
+    align-items: center;
+    margin: 30px 80px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(134, 111, 68);
+}
+
+.single_product_wish_heart {
+    width: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.single_product_wish_imgage_div {
+    transition: 0.2s;
+    margin-right: 40px;
+}
+
+.single_product_wish_imgage_div:hover {
+    transition: 0.2s;
+    transform: scale(1.06);
+}
+
+.single_product_wish_image {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 15px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.single_product_wish_rate,
+.single_product_wish_info {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.single_product_wish_rate {
+    display: flex;
+    align-items: center;
+}
+
+.single_product_wish_rate_number {
+    margin: 15px 4px 15px 0;
+}
+
+.single_product_wish_price {
+    color: rgb(165, 130, 60);
+}

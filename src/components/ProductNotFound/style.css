@@ -1,0 +1,25 @@
+.product_not_found_multiple {
+    height: 100%;
+    margin: 110px 0 110px 525px;
+}
+
+.product_not_found_single {
+    margin: 80px 0;
+}
+
+.product_not_found_main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.product_not_found img {
+    width: 450px;
+    height: 422px;
+}
+
+.product_not_found h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(165, 159, 147);
+    margin-right: 26px;
+}

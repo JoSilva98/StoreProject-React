@@ -1,0 +1,29 @@
+.page_buttons {
+    margin-left: 525px;
+    text-align: center;
+    min-height: 40px;
+}
+
+.page_button {
+    font-size: 15px;
+    padding: 10px;
+    width: 15%;
+    margin: 0 15px;
+}
+
+.page_button:disabled {
+    box-shadow: none;
+    background-color: rgb(253, 245, 229);
+    -moz-box-shadow: none;
+}
+
+.page_text_div {
+    text-align: center;
+    margin: 0 0 80px 525px;
+}
+
+.page_text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin: 20px 0 25px 0;
+}

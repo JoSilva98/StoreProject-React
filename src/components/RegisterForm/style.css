@@ -1,0 +1,83 @@
+.register_main {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.register_main_div {
+    width: 500px;
+    background-color: rgba(255, 250, 239, 0.5);
+    padding: 50px;
+}
+
+.register_title {
+    text-align: center;
+    font-family: 'Jomolhari', serif;
+    color: rgb(63, 60, 55);
+    font-size: 40px;
+    border-bottom: 1px solid rgb(146, 126, 86);
+    height: 68px;
+    margin-bottom: 25px;
+}
+
+.register_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register_input,
+.register_empty_input {
+    background-color: rgba(243, 241, 240, 0.466);
+    border: 1px solid rgba(243, 241, 240, 0.466);
+    padding: 14px;
+    margin-top: 15px;
+    width: 70%;
+    outline: none;
+    border-radius: 3px;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.register_empty_input {
+    border: 1px solid rgb(247, 98, 98);
+}
+
+.register_input:focus,
+.register_empty_input:focus {
+    transition: 0.2s;
+    box-shadow: 0px 2px 5px #888888;
+}
+
+.login_text {
+    text-align: center;
+}
+
+.login_link {
+    color: rgb(173, 160, 133);
+    text-decoration: none;
+}
+
+.login_link:hover {
+    text-decoration: underline;
+}
+
+.error_message {
+    color: rgb(247, 98, 98);
+    margin: 5px 0 2px 0;
+}
+
+.register_input,
+.register_empty_input,
+.error_message,
+.login_text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.register_title,
+.register_form,
+.login_text {
+    --side-margin: calc(700px - var(--margin-value));
+    margin-left: var(--side-margin);
+    margin-right: var(--side-margin);
+}

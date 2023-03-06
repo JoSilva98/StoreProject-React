@@ -1,0 +1,135 @@
+.users_list_main_div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.users_list_main {
+    min-height: 637px;
+}
+
+.users_list_container {
+    height: 520px;
+    max-height: 520px;
+    cursor: default;
+}
+
+.users_list {
+    display: table;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    border-radius: 4px;
+    width: 1000px;
+}
+
+.users_list_search_bar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #1a1a1b;
+    margin-left: 30px;
+    padding: 1px 2px;
+    width: 378px;
+    height: 19px;
+}
+
+.users_list_search_bar input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.users_list_search_bar img {
+    width: 12px;
+}
+
+@media (width < 580px) {
+    .users_list {
+        display: block;
+    }
+}
+
+.users_list_header {
+    display: table-row;
+    font-weight: bold;
+}
+
+.users_list_data {
+    display: table-row;
+    background-color: #f6f6f6;
+}
+
+.users_list_data:nth-of-type(odd) {
+    background-color: #e9e9e9;
+}
+
+.users_list_header div,
+.users_list_data div {
+    display: table-cell;
+    padding: 10px 25px;
+}
+
+.users_list_buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    min-height: 37px;
+}
+
+.users_list_buttons button {
+    width: 188px;
+    margin: 0 15px;
+}
+
+.users_list_id {
+    width: 22px;
+    max-width: 22px;
+}
+
+.users_list_first_name {
+    width: 98px;
+    max-width: 98px;
+}
+
+.users_list_last_name {
+    width: 95px;
+    max-width: 95px;
+}
+
+.users_list_email {
+    width: 171px;
+    max-width: 171px;
+}
+
+.users_list_daste_of_birth {
+    width: 112px;
+    max-width: 112px;
+}
+
+.users_list_address {
+    width: 202px;
+    max-width: 202px;
+}
+
+.users_list_id,
+.users_list_first_name,
+.users_list_last_name,
+.users_list_email,
+.users_list_daste_of_birth,
+.users_list_address {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 20px;
+}
+
+.users_list_first_name::-webkit-scrollbar,
+.users_list_last_name::-webkit-scrollbar,
+.users_list_email::-webkit-scrollbar,
+.users_list_address::-webkit-scrollbar {
+    height: 0;
+}

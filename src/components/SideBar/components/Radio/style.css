@@ -1,0 +1,32 @@
+.side_bar_radio {
+    position: absolute;
+    opacity: 0;
+}
+
+.side_bar_fake_radio,
+.side_bar_fake_radio_checked {
+    width: 11px;
+    height: 11px;
+    border: 0.15em solid rgb(199, 182, 146);
+    border-radius: 50%;
+}
+
+.side_bar_radio,
+.side_bar_fake_radio {
+    cursor: pointer;
+}
+
+.side_bar_single_form_lines,
+.side_bar_single_form_lines_hover {
+    display: flex;
+    align-items: center;
+    margin: 7px 0 2px 0;
+}
+
+.side_bar_fake_radio_checked {
+    background-color: rgb(199, 182, 146);
+}
+
+.side_bar_single_form_lines_hover .side_bar_fake_radio {
+    background-color: rgb(255, 247, 228);
+}

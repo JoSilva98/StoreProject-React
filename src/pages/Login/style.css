@@ -1,0 +1,96 @@
+.login {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.login_main {
+    display: flex;
+    justify-content: center;
+}
+
+.login_main_div {
+    width: 500px;
+    background-color: rgba(255, 250, 239, 0.5);
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.login_title {
+    text-align: center;
+    font-family: 'Jomolhari', serif;
+    color: rgb(63, 60, 55);
+    font-size: 40px;
+    border-bottom: 1px solid rgb(146, 126, 86);
+    height: 68px;
+    margin-bottom: 25px;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login_input,
+.login_empty_input {
+    background-color: rgba(243, 241, 240, 0.466);
+    border: 1px solid rgba(243, 241, 240, 0.466);
+    padding: 14px;
+    margin-top: 15px;
+    width: 70%;
+    outline: none;
+    border-radius: 3px;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.login_empty_input {
+    border: 1px solid rgb(247, 98, 98);
+}
+
+.login_input:focus,
+.login_empty_input:focus {
+    transition: 0.2s;
+    box-shadow: 0px 2px 5px #888888;
+}
+
+.register_text {
+    text-align: center;
+}
+
+.register_link {
+    color: rgb(173, 160, 133);
+    text-decoration: none;
+}
+
+.register_link:hover {
+    text-decoration: underline;
+}
+
+.login_input,
+.register_text,
+.login_failed,
+.login_empty_input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.login_failed_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 45px;
+    margin: 50px 0 70px;
+}
+
+.login_failed {
+    background-color: #ffeff1;
+    color: #8b3535;
+    border-radius: 4px;
+    height: 45px;
+    padding: 0 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

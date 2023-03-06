@@ -1,0 +1,21 @@
+.not_found {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(220, 222, 228);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.not_found img {
+    height: 100vh;
+    position: relative;
+    object-fit: contain;
+}
+
+.not_found h2 {
+    position: absolute;
+    bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(82, 87, 92);
+}

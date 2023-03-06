@@ -1,0 +1,116 @@
+.product_main {
+    --max-height: 550px;
+    --max-width: 600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: default;
+}
+
+.product_main_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product_image {
+    height: var(--max-height);
+    width: var(--max-width);
+    object-fit: contain;
+    margin-right: 60px;
+}
+
+.product_structure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: var(--max-width);
+    margin: 60px 0 50px;
+}
+
+.product h3 {
+    color: rgba(170, 154, 123, 0.808);
+    margin-bottom: 30px;
+}
+
+.product h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.product_rating {
+    display: flex;
+    align-items: center;
+}
+
+.product_rating_star {
+    margin-right: 2px;
+}
+
+.product_rating_count {
+    color: rgb(77, 68, 51);
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.product h2 {
+    margin: 30px 0;
+    color: rgb(175, 157, 120);
+}
+
+.product_description {
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.product_buttons {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.product_quantity_buttons {
+    display: flex;
+    align-items: center;
+    border: 3px solid rgb(143, 119, 70);
+    border-radius: 4px;
+}
+
+.product_quantity_button {
+    background-color: transparent;
+    margin: 0;
+    padding: 12px 8px;
+    border-radius: 0;
+}
+
+.product_quantity_button:disabled,
+.product_cart_button:disabled {
+    box-shadow: none;
+    cursor: default;
+}
+
+.product_quantity_value {
+    margin: 0 5px;
+    width: 16px;
+    text-align: center;
+}
+
+.product_cart_button {
+    margin-left: 50px;
+}
+
+.product_quantity_stock {
+    margin: -20px 0 20px;
+    font-style: italic;
+}
+
+.product_extra_buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.product_extra_button {
+    margin: 20px 0;
+}

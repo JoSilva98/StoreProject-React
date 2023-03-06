@@ -1,0 +1,38 @@
+.password_validation {
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.password_validation_title {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.password_validation_params {
+    font-size: 15px;
+}
+
+.valid_password {
+    color: #4dc444;
+}
+
+.valid_password:before,
+.invalid_password:before {
+    position: relative;
+    left: -15px;
+}
+
+.valid_password:before {
+    content: "\2713";
+}
+
+.invalid_password {
+    color: rgb(247, 98, 98);
+}
+
+.invalid_password:before {
+    content: "\2717";
+}

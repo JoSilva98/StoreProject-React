@@ -1,0 +1,30 @@
+.wish_products_list {
+    min-height: 550px;   
+    margin-top: 60px;
+}
+
+.wish_list_title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.wish_list_title img {
+    min-height: 30px;
+    width: 30px;
+    opacity: 50%;
+    margin-bottom: 20px;
+}
+
+.wish_list h1 {
+    border-bottom: 1px solid rgb(165, 130, 60);
+    border-left: 1px solid rgb(165, 130, 60);
+    border-right: 1px solid rgb(165, 130, 60);;
+    color: rgb(61, 49, 25);
+    width: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

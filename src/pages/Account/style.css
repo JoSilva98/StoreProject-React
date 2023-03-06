@@ -1,0 +1,28 @@
+.account {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.account_main,
+.account_admin_buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account_button,
+.account_admin_button {
+    padding: 10px;
+    margin: 30px 0;
+    width: 10%;
+}
+
+.account_admin_buttons {
+    width: 100%;
+}
+
+#logout_button {
+    margin-bottom: 70px;
+}
