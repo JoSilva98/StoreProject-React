@@ -15,6 +15,8 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import UpdateProduct from './pages/UpdateProduct/UpdateProduct';
 import { SearchContextProvider } from './context/searchContext';
 import AddProduct from './pages/AddProduct/AddProduct';
+import UpdateProfile from './pages/Account/UpdateProfile/UpdateProfile';
+import Profile from './pages/Account/Profile/Profile';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/account" element={<Account />} />
+          <Route path="/account/profile" element={<Profile />} />
+          <Route path="/account/updateprofile" element={<UpdateProfile />} />
           <Route path="/account/userlist" element={<UserList />} />
           <Route path="/account/adduser" element={<AddUser />} />
           <Route path="/wishlist" element={<WishList />} />

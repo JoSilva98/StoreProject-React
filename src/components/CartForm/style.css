@@ -57,7 +57,7 @@
     background-color: rgba(255, 247, 227, 0.26);
     padding: 25px;
     margin-top: -25px;
-    max-height: 490px;
+    max-height: 555px;
     position: fixed;
     right: 40px;
 }
@@ -109,8 +109,15 @@
     box-shadow: 0px 2px 5px #888888;
 }
 
+.cart_buttons_div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .cart_buttons {
-    margin-top: 30px;
+    margin: 30px 0;
     width: 100%;
     height: 45px;
     display: flex;
@@ -134,6 +141,7 @@
 .cart_prods_buy_empty,
 .cart_prods_buy_error {
     border-radius: 4px;
+    width: 140px;
     height: 45px;
     padding: 0 25px;
     display: flex;
@@ -155,68 +163,3 @@
     background-color: #ffeff1;
     color: #8b3535;
 }
-
-/*
-.register_main {
-    display: flex;
-    justify-content: center;
-    margin: 50px 0;
-}
-
-.register_main_div {
-    width: 500px;
-    background-color: rgba(255, 250, 239, 0.5);
-    padding: 50px;
-}
-
-.register_title {
-    text-align: center;
-    font-family: 'Jomolhari', serif;
-    color: rgb(63, 60, 55);
-    font-size: 40px;
-    border-bottom: 1px solid rgb(146, 126, 86);
-    height: 68px;
-    margin-bottom: 25px;
-}
-
-.register_form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.login_text {
-    text-align: center;
-}
-
-.login_link {
-    color: rgb(173, 160, 133);
-    text-decoration: none;
-}
-
-.login_link:hover {
-    text-decoration: underline;
-}
-
-.error_message {
-    color: rgb(247, 98, 98);
-    margin: 5px 0 2px 0;
-}
-
-.register_input,
-.register_empty_input,
-.error_message,
-.login_text {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.register_title,
-.register_form,
-.login_text {
-    --side-margin: calc(700px - var(--margin-value));
-    margin-left: var(--side-margin);
-    margin-right: var(--side-margin);
-}
-
-
-*/

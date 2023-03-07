@@ -1,6 +1,10 @@
 import "./style.css"
 import Register from "../../Register/Register"
+import { Navigate } from "react-router-dom"
+import { useContext } from "react"
+import useUserInfo from "../../../hooks/useUserInfo"
 
 export default function AddUser() {
-    return <Register isAddUser={true} />
+    const { isAdmin } = useUserInfo()
+    return isAdmin ? <Register isAddUser={true} /> : <Navigate to="/" />
 }

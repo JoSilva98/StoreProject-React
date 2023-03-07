@@ -88,10 +88,18 @@ export default function CartForm(props) {
                         maxLength={40}
                     />
 
-                    <div className="cart_buttons">
-                        <button id="login_button">Login</button>
-                        <p>Or</p>
-                        <button onClick={buyProds}>Checkout</button>
+                    <div className="cart_buttons_div">
+                        <div className="cart_buttons">
+                            <button id="login_button">Login</button>
+                            <p>Or</p>
+                            <button onClick={buyProds}>Checkout</button>
+                        </div>
+
+                        <div>
+                            {status.success && <p className="cart_prods_buy_complete">Completed Purchase!</p>}
+                            {status.empty && <p className="cart_prods_buy_empty">Cart is Empty</p>}
+                            {status.error && <p className="cart_prods_buy_error">An Error Ocurred</p>}
+                        </div>
                     </div>
                 </form> :
                 <div className="cart_buttons_logged">

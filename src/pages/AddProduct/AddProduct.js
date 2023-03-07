@@ -2,14 +2,13 @@ import "./style.css"
 import Header from "../../components/Header/Header"
 import Footer from "../../components/Footer/Footer"
 import { useState } from "react"
-import { useNavigate } from "react-router-dom"
+import { Navigate, useNavigate } from "react-router-dom"
 import addProductFetch from "../../services/addProductFetch"
 import useUserInfo from "../../hooks/useUserInfo"
-import Utf8 from "crypto-js/enc-utf8"
 
 export default function AddProduct() {
     const navigate = useNavigate()
-    const { decryptedToken } = useUserInfo()
+    const { decryptedToken, isAdmin } = useUserInfo()
     const [status, setStatus] = useState({ isAdded: false, error: false, errorMessage: "" })
     const [formData, setFormData] = useState({
         title: { value: "", isFilled: true },
@@ -70,84 +69,87 @@ export default function AddProduct() {
 
     console.log(formData)
 
-    return <div>
-        <Header />
-        <main className="update_product_main">
-            <div className="update_product_main_div">
-                <h1 className="update_product_title">Add Product</h1>
+    return isAdmin ?
+        <div>
+            <Header />
+            <main className="update_product_main">
+                <div className="update_product_main_div">
+                    <h1 className="update_product_title">Add Product</h1>
 
-                <form className="update_product_form">
-                    <input
-                        className={formData.title.isFilled ? "register_input" : "register_empty_input"}
-                        type="text"
-                        placeholder="Title"
-                        name="title"
-                        value={formData.title.value}
-                        onChange={handleChange}
-                        maxLength={60}
-                    />
+                    <form className="update_product_form">
+                        <input
+                            className={formData.title.isFilled ? "register_input" : "register_empty_input"}
+                            type="text"
+                            placeholder="Title"
+                            name="title"
+                            value={formData.title.value}
+                            onChange={handleChange}
+                            maxLength={60}
+                        />
 
-                    <input
-                        className={formData.price.isFilled ? "register_input" : "register_empty_input"}
-                        type="number"
-                        placeholder="Price"
-                        name="price"
-                        value={formData.price.value}
-                        onChange={handleChange}
-                        min={0}
-                        max={1000000}
-                    />
+                        <input
+                            className={formData.price.isFilled ? "register_input" : "register_empty_input"}
+                            type="number"
+                            placeholder="Price"
+                            name="price"
+                            value={formData.price.value}
+                            onChange={handleChange}
+                            min={0}
+                            max={1000000}
+                        />
 
-                    <select
-                        className={formData.category.isFilled ? "update_product_select" : "update_product_empty_select"}
-                        value={formData.category.value}
-                        onChange={handleChange}
-                        name="category"
-                    >
-                        <option value="">-- Choose Category --</option>
-                        <option value="women's clothing">Women's clothing</option>
-                        <option value="men's clothing">Men's clothing</option>
-                        <option value="jewelery">Jewelery</option>
-                    </select>
+                        <select
+                            className={formData.category.isFilled ? "update_product_select" : "update_product_empty_select"}
+                            value={formData.category.value}
+                            onChange={handleChange}
+                            name="category"
+                        >
+                            <option value="">-- Choose Category --</option>
+                            <option value="women's clothing">Women's clothing</option>
+                            <option value="men's clothing">Men's clothing</option>
+                            <option value="jewelery">Jewelery</option>
+                        </select>
 
-                    <input
-                        className={formData.image.isFilled ? "register_input" : "register_empty_input"}
-                        type="text"
-                        placeholder="Image URL"
-                        name="image"
-                        value={formData.image.value}
-                        onChange={handleChange}
-                        maxLength={150}
-                    />
+                        <input
+                            className={formData.image.isFilled ? "register_input" : "register_empty_input"}
+                            type="text"
+                            placeholder="Image URL"
+                            name="image"
+                            value={formData.image.value}
+                            onChange={handleChange}
+                            maxLength={150}
+                        />
 
-                    <input
-                        className={formData.stock.isFilled ? "register_input" : "register_empty_input"}
-                        type="number"
-                        placeholder="Pieces in stock"
-                        name="stock"
-                        value={formData.stock.value}
-                        onChange={handleChange}
-                        min={0}
-                        max={100000}
-                    />
+                        <input
+                            className={formData.stock.isFilled ? "register_input" : "register_empty_input"}
+                            type="number"
+                            placeholder="Pieces in stock"
+                            name="stock"
+                            value={formData.stock.value}
+                            onChange={handleChange}
+                            min={0}
+                            max={100000}
+                        />
 
-                    <textarea
-                        className={formData.description.isFilled ? "register_input" : "register_empty_input"}
-                        placeholder="Description"
-                        name="description"
-                        value={formData.description.value}
-                        onChange={handleChange}
-                        maxLength={700}
-                    />
-                    <button className="update_product_button" onClick={addProduct}>Add Product</button>
-                    <button className="update_product_button" onClick={() => navigate("/products")}>Back to Product Page</button>
-                </form>
-            </div>
-            <div className="update_product_message">
-                {status.isAdded && <p className="update_product_message_success">Product Added!</p>}
-                {status.error && <p className="update_product_message_error">{status.errorMessage || "An error as occurred"}</p>}
-            </div>
-        </main>
-        <Footer />
-    </div>
+                        <textarea
+                            className={formData.description.isFilled ? "register_input" : "register_empty_input"}
+                            placeholder="Description"
+                            name="description"
+                            value={formData.description.value}
+                            onChange={handleChange}
+                            maxLength={700}
+                        />
+                        <button className="update_product_button" onClick={addProduct}>Add Product</button>
+                        <button className="update_product_button" onClick={() => navigate("/products")}>Back to Product Page</button>
+                    </form>
+                </div>
+                <div className="update_product_message">
+                    {status.isAdded && <p className="update_product_message_success">Product Added!</p>}
+                    {status.error && <p className="update_product_message_error">{status.errorMessage || "An error as occurred"}</p>}
+                </div>
+            </main>
+            <Footer />
+        </div>
+        :
+        <Navigate to="/" />
 }

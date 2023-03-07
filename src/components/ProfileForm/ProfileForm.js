@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react"
 import { useNavigate } from "react-router-dom"
+import useUserInfo from "../../hooks/useUserInfo"
 import updateUser from "../../services/updateUser"
 import PasswordValidation from "../RegisterForm/PasswordValidation/PasswordValidation"
 import "./style.css"
 
-export default function ProfileForm({ decryptedId, decryptedToken }) {
+export default function ProfileForm() {
     const navigate = useNavigate()
+    const { decryptedId, decryptedToken } = useUserInfo()
     const formDataDefault = { value: "", errorMessage: "" }
     const [status, setStatus] = useState({ isUpdated: false, isEmpty: false })
     const [passValidation, setPassValidation] = useState({})
@@ -159,10 +161,10 @@ export default function ProfileForm({ decryptedId, decryptedToken }) {
 
                     <PasswordValidation checkValidation={checkValidation} passValidation={passValidation} />
                     <button className="register_button" onClick={update}>Update Data</button>
-                    <button className="update_button_cancel" onClick={() => navigate(-1)}>Cancel</button>
+                    <button className="update_button_cancel" onClick={() => navigate("/account")}>Cancel</button>
 
                     <div className="update_product_message">
-                        {status.isUpdated && <p className="update_product_message_success">Product Updated!</p>}
+                        {status.isUpdated && <p className="update_product_message_success">User data updated!</p>}
                         {status.isEmpty && <p className="update_product_message_empty">No fields updated</p>}
                     </div>
                 </form>

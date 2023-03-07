@@ -149,12 +149,15 @@ export default function Cart() {
             const newProds = prev.filter(obj => obj.product.id !== prodId)
             const encryptedCart = AES.encrypt(JSON.stringify(newProds), cartKey).toString()
             localStorage.setItem("cart", encryptedCart)
+
+            setTotal(() => newProds.map(prod => prod.product.price).reduce((a, b) => a + b, 0))
             return newProds
         })
     }
 
     function emptyCart() {
         setProducts(() => [])
+        setTotal(() => 0)
         localStorage.setItem("cart", AES.encrypt(JSON.stringify([]), cartKey).toString())
     }
 

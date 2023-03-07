@@ -37,7 +37,7 @@ export default function Product() {
                 if (isAny) setIsAddedToCart(true)
             }
 
-            if (json) {
+            if (JSON.stringify(json) !== '[]') {
                 setProduct(json)
                 setNotFound(false)
             } else setNotFound(true)

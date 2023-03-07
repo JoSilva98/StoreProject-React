@@ -84,9 +84,7 @@ export default function UpdateProduct() {
                 <ProductNotFound content="Product not found" />
                 :
                 loading ?
-                    <div className="update_product_main" style={{ minHeight: "770px" }}>
-                        <div className="update_product_main_div" />
-                    </div>
+                    <div className="update_product_main" style={{ minHeight: "770px", backgroundColor: "white" }} />
                     :
                     <UpdateProductForm
                         formData={formData}

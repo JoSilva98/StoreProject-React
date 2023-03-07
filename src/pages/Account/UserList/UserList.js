@@ -1,6 +1,6 @@
 import "./style.css"
 import { useEffect, useState } from "react";
-import { Navigate } from "react-router-dom";
+import { Navigate, useNavigate } from "react-router-dom";
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
 import useUserInfo from "../../../hooks/useUserInfo";
@@ -8,6 +8,7 @@ import getUsersList from "../../../services/getUsersList";
 import searchIcon from "../../../assets/search.png"
 
 export default function UserList() {
+    const navigate = useNavigate()
     const { decryptedToken, isAdmin } = useUserInfo()
     const [users, setUsers] = useState([])
     const [numOfPages, setNumOfPages] = useState(0)
@@ -75,13 +76,16 @@ export default function UserList() {
 
                             {status.notFound ? <div className="users_list_data" />
                                 :
-                                users.map(prod => <div key={prod.id} className="users_list_data">
-                                    <div className="users_list_id">{prod.id}</div>
-                                    <div className="users_list_first_name">{prod.firstName}</div>
-                                    <div className="users_list_last_name">{prod.lastName}</div>
-                                    <div className="users_list_email">{prod.email}</div>
-                                    <div className="users_list_daste_of_birth">{prod.dateOfBirth}</div>
-                                    <div className="users_list_address">{prod.address}</div>
+                                users.map(user => <div key={user.id} className="users_list_data"
+                                    onClick={() => navigate("/account/profile", { state: { userId: user.id, adminRole: true } })}
+                                    style={{ cursor: "pointer" }}
+                                >
+                                    <div className="users_list_id">{user.id}</div>
+                                    <div className="users_list_first_name">{user.firstName}</div>
+                                    <div className="users_list_last_name">{user.lastName}</div>
+                                    <div className="users_list_email">{user.email}</div>
+                                    <div className="users_list_daste_of_birth">{user.dateOfBirth}</div>
+                                    <div className="users_list_address">{user.address}</div>
                                 </div>)
                             }
                         </div>
