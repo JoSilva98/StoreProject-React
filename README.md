@@ -1,11 +1,13 @@
 # Store Project - React
 
+
+
 ## SUMMARY
 
 The Front-End implementation of the E-Commerce type of store made with React. 
-Created with the purpose of giving it's users the ability to search, add to wish list/cart, rate and buy desired products, ranging from clothing to jewelry.
-The Back-End consists in Java Spring Boot and provides two roles: User and Admin. While unlogged, you can do all the same things as a User logged account can do, except rating a product. While logged in an Admin account, you can add, update and delete products, view the users list and add a user
-It also as some filters 
+Created with the purpose of giving it's users the ability to search, add to wish list/cart, rate and buy desired products, ranging from clothing to jewelry. The Back-End consists in Java Spring Boot which provides two roles (User and Admin) and filters to filter the search.
+
+It also has some filters which allow the user to filter products by category, rating and price.
 
 Made use of login/register endpoints of the Java Springboot API (previously built) also with search filters to order (ascending/descending) products by rating, category and number of products per page. Also used fully functional pagination, aswell as other miscellaneous.
 
