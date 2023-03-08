@@ -19,8 +19,6 @@ Path should be specific to localhost or to: https://store-project-production.up.
 ### USERS PAGES
 Bellow are the pages to which the users (logged in or not) have access.
 
-<br />
-
 #### HOME PAGE
 The ***Home Page*** contains a ***Header*** which allows the user to navigate back to the ***Home Page***, search products via ***Search Bar***, navigate to the ***Login***/***Register***, ***Wish List*** and ***Shopping Cart*** pages.
 It also contains two buttons in the main element which allows the user navigating to the Products Page and to the Products Page filtered by jewelery category.
@@ -61,14 +59,12 @@ If a unlogged user tries to access the account page by pasting the link on the b
 #### PRODUCTS PAGE
 This page contains all the products available in the store. Here, the user can add products to the ***Wish List***, by clicking on the heart image, and filter products to find the product they desire quickly.
 
-<br />
-
 #### Filters
 The filters have a ***Sort by*** and a ***Filter by*** section. Both can be combined but the user can only use a filter at once.
 The ***Sort by*** section contain an ***ASC*** and ***DESC*** options (acts diferently depending on the filter that's being combined with)
 The ***Filter by*** section have three filters: ***Category***, ***Rate*** and ***Price***.
 
-**Filter by Category:** Allows the user to filter the products by category. When combined with ***Sort by***, ***ASC*** and ***DESC*** options sort the products by alphabetical order.
+***Filter by Category:** Allows the user to filter the products by category. When combined with ***Sort by***, ***ASC*** and ***DESC*** options sort the products by alphabetical order.
 
 ![Category Filter](https://user-images.githubusercontent.com/103672052/223599758-255301f5-6c2c-469e-8892-117dc84ccbd0.png)
 
