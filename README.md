@@ -14,7 +14,7 @@ Path should be specific to localhost or to: https://store-project-production.up.
 
 ### USERS PAGES
 
-**HOME PAGE**
+#### HOME PAGE
 The ***Home Page*** contains a ***Header*** which allows the user to navigate back to the ***Home Page***, search products via ***Search Bar***, navigate to the ***Login***/***Register***, ***Wish List*** and ***Shopping Cart*** pages.
 It also contains two buttons in the main element which allows the user navigating to the Products Page and to the Products Page filtered by jewelery category.
 
@@ -22,7 +22,7 @@ It also contains two buttons in the main element which allows the user navigatin
 
 ***
 
-### LOGIN / REGISTER
+#### LOGIN / REGISTER
 Both ***Login*** and ***Register*** consist in a form which allows the user to log in their account and create and account, respectively.
 The ***Login*** informations, along with the ***Shopping Cart*** and the ***Wish List***, are encrypted and stored on the browser's *Local Storage*.
 If, for some reason, you want to decrypt them, you need to use the CryptoJS library and the secret keys stored in the ***secretKeys.js***.
@@ -31,10 +31,10 @@ If, for some reason, you want to decrypt them, you need to use the CryptoJS libr
 
 ***
 
-### PRODUCTS PAGE
+#### PRODUCTS PAGE
 This page contains all the products available in the store. Here, the user can add products to the ***Wish List***, by clicking on the heart image, and filter products to find the product they desire quickly.
 
-### Filters
+#### Filters
 The filters have a ***Sort by*** and a ***Filter by*** section. Both can be combined but the user can only use a filter at once.
 The ***Sort by*** section contain an ***ASC*** and ***DESC*** options (acts diferently depending on the filter that's being combined with)
 The ***Filter by*** section have three filters: ***Category***, ***Rate*** and ***Price***.
@@ -51,7 +51,7 @@ The ***Filter by*** section have three filters: ***Category***, ***Rate*** and *
 
 ** Print do Filtro Price **
 
-### Search Bar
+#### Search Bar
 The ***Search Bar*** is the element that can be used from any part of the website. By writing something on it, it's displayed a list of products where the product's title, description, category or price matches the text entered in the ***Search Bar***. By clicking on the product, the user is redirected to the page of that single product. By clicking *Enter*, the user is redirected to the ***Products Page*** with all the products that match the entered text on the ***Search Bar***.
 The ***Search Bar*** can also be combined with the ***Filters***. To do so, the user should select a ***Filter*** first, then write something on the ***Search Bar*** and pressing *Enter* at the end.
 
@@ -59,21 +59,21 @@ The ***Search Bar*** can also be combined with the ***Filters***. To do so, the 
 
 ***
 
-### PRODUCT DETAILS
+#### PRODUCT DETAILS
 This page allows the user to read the product details, add units of it to the ***Shopping Cart*** and, if the user is logged, allows the user to rate the product by clicking on the stars images.
 
 ** Print de Product Details **
 
 ***
 
-### WISH LIST
+#### WISH LIST
 This page allows the users to save their favorite products. Clicking on the product, the user is redirected to the ***Product Details*** page. The product can be removed from the list by clicking on the heart image.
 
 ** Print de Wish List **
 
 ***
 
-### SHOPPING CART
+#### SHOPPING CART
 This page allows the user to buy the products on the list. The checkout can be done by logging in or by filling a litle form.
 
 ** Print de Shopping Cart **
