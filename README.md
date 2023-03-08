@@ -17,7 +17,7 @@ Path should be specific to localhost or to: https://store-project-production.up.
 ***
 
 ### Home Page
-The Home Page contains a Header (which allows the user to navigate back to the Home Page, search products via Search Bar, navigate to the Login/Register Page, Wish List Page and Shopping Cart). 
+The *Home Page* contains a *Header* which allows the user to navigate back to the *Home Page*, search products via *Search Bar*, navigate to the *Login*/*Register*, *Wish List* and *Shopping Cart* pages.
 It also contains two buttons in the main element which allows the user navigating to the Products Page and to the Products Page filtered by jewelery category.
 
 ** Print da Home Page **
@@ -25,14 +25,27 @@ It also contains two buttons in the main element which allows the user navigatin
 ***
 
 ### Login / Register
-Both Login and Register consist in a form which allows the user to log in their account and create and account, respectively:
+Both *Login* and *Register* consist in a form which allows the user to log in their account and create and account, respectively:
 
-** Print das pags Login e Register
+** Print das pags Login e Register **
 
 ***
 
 ### Products Page
+This page contains all the products available in the store. It contains filters to help the user find the products their desire quickly.
+
 #### Filters
+The filters have a *Sort by* and a *Filter by* section. Both can be combined but the user can only use a filter at once.
+The *Sort by* section contain an *ASC* and *DESC* option (acts diferently depending on the filter that's being combined with)
+The *Filter by* section have three filters: *Category*, *Rate* and *Price*.
+
+##### Filter by Category
+
+
+
+
+The Header contains Search Bar which allows the user to search for any product. Pressing the enter button, while focused on the Search Bar, redirects the user to the Products Page, showing only the products that contain the text passed through the Seacrh Bar in it's title, description, price or category
+
 
 
 
