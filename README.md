@@ -1,6 +1,6 @@
 # Store Project - React
 
-### SUMMARY
+## SUMMARY
 
 The Front-End implementation of the E-Commerce type of store made with React. 
 Created with the purpose of giving it's users the ability to search, add to wish list/cart, rate and buy desired products, ranging from clothing to jewelry. The Back-End consists in Java Spring Boot which provides two roles (User and Admin) and filters to filter the search.
@@ -11,12 +11,12 @@ Made use of login/register endpoints of the Java Springboot API (previously buil
 
 ***
 
-### API LINKS
+## API LINKS
 Path should be specific to localhost or to: https://store-project-production.up.railway.app
 
 ***
 
-### Home Page
+## Home Page
 The *Home Page* contains a *Header* which allows the user to navigate back to the *Home Page*, search products via *Search Bar*, navigate to the *Login*/*Register*, *Wish List* and *Shopping Cart* pages.
 It also contains two buttons in the main element which allows the user navigating to the Products Page and to the Products Page filtered by jewelery category.
 
@@ -24,22 +24,22 @@ It also contains two buttons in the main element which allows the user navigatin
 
 ***
 
-### Login / Register
+## Login / Register
 Both *Login* and *Register* consist in a form which allows the user to log in their account and create and account, respectively:
 
 ** Print das pags Login e Register **
 
 ***
 
-### Products Page
+## Products Page
 This page contains all the products available in the store. It contains filters to help the user find the products their desire quickly.
 
-#### Filters
+### Filters
 The filters have a *Sort by* and a *Filter by* section. Both can be combined but the user can only use a filter at once.
 The *Sort by* section contain an *ASC* and *DESC* option (acts diferently depending on the filter that's being combined with)
 The *Filter by* section have three filters: *Category*, *Rate* and *Price*.
 
-##### Filter by Category
+#### Filter by Category
 
 
 
