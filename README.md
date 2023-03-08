@@ -21,6 +21,8 @@ It also contains two buttons in the main element which allows the user navigatin
 
 ** Print da Home Page **
 
+![Home Page](https://user-images.githubusercontent.com/103672052/223599194-a4a6e53f-54bd-4265-a65b-c2f7ce70c8de.png)
+
 ***
 
 #### LOGIN / REGISTER
@@ -162,6 +164,8 @@ https://user-images.githubusercontent.com/103672052/223594899-d63857c3-a10d-4dd1
 
 ***
 
+<br />
+
 #### LOGGED IN USER
 
 <br />
@@ -183,6 +187,8 @@ Rating and Checkout:
 https://user-images.githubusercontent.com/103672052/223595377-e62c0da2-6dd8-458f-b09b-6395b6acdada.mp4
 
 ***
+
+<br />
 
 #### ADMIN
 
@@ -211,6 +217,8 @@ Add User:
 https://user-images.githubusercontent.com/103672052/223595572-e247990e-0270-4977-b0a5-5d6dc00c149d.mp4
 
 ***
+
+<br />
 
 #### NOT FOUND / FORBIDDEN PAGES
 
