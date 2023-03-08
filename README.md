@@ -1,7 +1,5 @@
 # Store Project - React
 
-
-
 ### SUMMARY
 
 The Front-End implementation of the E-Commerce type of store made with React. 
@@ -15,6 +13,28 @@ Made use of login/register endpoints of the Java Springboot API (previously buil
 
 ### API LINKS
 Path should be specific to localhost or to: https://store-project-production.up.railway.app
+
+***
+
+### Home Page
+The Home Page contains a Header (which allows the user to navigate back to the Home Page, search products via Search Bar, navigate to the Login/Register Page, Wish List Page and Shopping Cart). 
+It also contains two buttons in the main element which allows the user navigating to the Products Page and to the Products Page filtered by jewelery category.
+
+** Print da Home Page **
+
+***
+
+### Login / Register
+Both Login and Register consist in a form which allows the user to log in their account and create and account, respectively:
+
+** Print das pags Login e Register
+
+***
+
+### Products Page
+#### Filters
+
+
 
 
 ### `npm start`
