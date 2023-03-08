@@ -14,7 +14,7 @@ Path should be specific to localhost or to: https://store-project-production.up.
 
 ### USERS PAGES
 
-#### HOME PAGE
+**HOME PAGE**
 The ***Home Page*** contains a ***Header*** which allows the user to navigate back to the ***Home Page***, search products via ***Search Bar***, navigate to the ***Login***/***Register***, ***Wish List*** and ***Shopping Cart*** pages.
 It also contains two buttons in the main element which allows the user navigating to the Products Page and to the Products Page filtered by jewelery category.
 
