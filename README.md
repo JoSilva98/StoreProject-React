@@ -16,6 +16,18 @@ Path should be specific to localhost or to: https://store-project-production.up.
 
 ***
 
+### IMPLEMENTATIONS
+* React.js
+* Router DOM
+* Context API
+* React hooks
+* Fetch API
+* Figma software (for simple design planning)
+
+<br />
+
+***
+
 ### USERS PAGES
 Bellow are the pages to which the users (logged in or not) have access.
 
