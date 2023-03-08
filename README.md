@@ -19,6 +19,7 @@ Path should be specific to localhost or to: https://store-project-production.up.
 ### USERS PAGES
 Bellow are the pages to which the users (logged in or not) have access.
 
+<br />
 
 #### HOME PAGE
 The ***Home Page*** contains a ***Header*** which allows the user to navigate back to the ***Home Page***, search products via ***Search Bar***, navigate to the ***Login***/***Register***, ***Wish List*** and ***Shopping Cart*** pages.
@@ -60,12 +61,12 @@ If a unlogged user tries to access the account page by pasting the link on the b
 #### PRODUCTS PAGE
 This page contains all the products available in the store. Here, the user can add products to the ***Wish List***, by clicking on the heart image, and filter products to find the product they desire quickly.
 
+<br />
+
 #### Filters
 The filters have a ***Sort by*** and a ***Filter by*** section. Both can be combined but the user can only use a filter at once.
 The ***Sort by*** section contain an ***ASC*** and ***DESC*** options (acts diferently depending on the filter that's being combined with)
 The ***Filter by*** section have three filters: ***Category***, ***Rate*** and ***Price***.
-
-<br />
 
 **Filter by Category:** Allows the user to filter the products by category. When combined with ***Sort by***, ***ASC*** and ***DESC*** options sort the products by alphabetical order.
 
@@ -130,6 +131,7 @@ This page allows the user to buy the products on the list. The checkout can be d
 The admins have access to everything users have but with some extras. They just can't rate a product.
 If a user tries to access any admin's page by pasting the link on the browser (for example, pasting */addproduct* on the url) the user is redirected to the ***Home Page***.
 
+<br />
 
 #### ACCOUNT PAGE
 In this page, the admins have access to the users list, user's profile (by clicking on the user on the list) and can add a user to the Data Base. There is a ***Search Bar*** on the users list which allows the admin to search specific users by first name, last name, email, address and date of birth.
