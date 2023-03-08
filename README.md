@@ -25,9 +25,9 @@ It also contains two buttons in the main element which allows the user navigatin
 
 ![Home Page](https://user-images.githubusercontent.com/103672052/223599194-a4a6e53f-54bd-4265-a65b-c2f7ce70c8de.png)
 
-***
-
 <br />
+
+***
 
 #### LOGIN / REGISTER
 Both ***Login*** and ***Register*** consist in a form which allows the user to log in their account and create and account, respectively.
@@ -38,9 +38,9 @@ If, for some reason, you want to decrypt them, you need to use the CryptoJS libr
 
 ![Register](https://user-images.githubusercontent.com/103672052/223599507-9cc0e168-c512-4559-8f59-38d3a176a784.png)
 
-***
-
 <br />
+
+***
 
 #### ACCOUNT PAGE
 To have access to this page the user must be logged in. It's accessed by clicking on the same icon that redirects to the ***Login*** page. Here, the user can see he's profile and update it.
@@ -52,9 +52,9 @@ If a unlogged user tries to access the account page by pasting the link on the b
 
 ![Update Profile](https://user-images.githubusercontent.com/103672052/223600622-9795c8eb-f21e-4448-ab40-d0837525a96f.png)
 
-***
-
 <br />
+
+***
 
 #### PRODUCTS PAGE
 This page contains all the products available in the store. Here, the user can add products to the ***Wish List***, by clicking on the heart image, and filter products to find the product they desire quickly.
@@ -88,27 +88,27 @@ The ***Search Bar*** can also be combined with the ***Filters***. To do so, the 
 
 ![Search Bar](https://user-images.githubusercontent.com/103672052/223599867-ba4b6bd4-18d1-4bbc-8f12-a3ff9e89637d.png)
 
-***
-
 <br />
+
+***
 
 #### PRODUCT DETAILS
 This page allows the user to read the product details, add units of it to the ***Shopping Cart*** and, if the user is logged, allows the user to rate the product by clicking on the stars images.
 
 ![Product Details](https://user-images.githubusercontent.com/103672052/223599895-c9bcc3b4-136c-4a44-8cc1-c53f2852969e.png)
 
-***
-
 <br />
+
+***
 
 #### WISH LIST
 This page allows the users to save their favorite products. Clicking on the product, the user is redirected to the ***Product Details*** page. The product can be removed from the list by clicking on the heart image.
 
 ![Wish List](https://user-images.githubusercontent.com/103672052/223599928-8e05a57e-3424-4a46-9966-fe5104e874df.png)
 
-***
-
 <br />
+
+***
 
 #### SHOPPING CART
 This page allows the user to buy the products on the list. The checkout can be done by logging in or by filling a litle form.
@@ -119,9 +119,9 @@ This page allows the user to buy the products on the list. The checkout can be d
 
 ![Shopping Cart Logged In](https://user-images.githubusercontent.com/103672052/223600030-e470d416-dad1-4169-905a-6791a1f0c8ab.png)
 
-***
-
 <br />
+
+***
 
 ### ADMIN PAGES
 The admins have access to everything users have but with some extras. They just can't rate a product.
@@ -136,9 +136,9 @@ In this page, the admins have access to the users list, user's profile (by click
 
 ![Add User](https://user-images.githubusercontent.com/103672052/223600338-43c0e46c-0904-4cf4-986d-1544ddc9d61f.png)
 
-***
-
 <br />
+
+***
 
 #### PRODUCTS PAGE
 The admins can add and delete products on this page. To add a product all the form fields must be filled.
@@ -147,9 +147,9 @@ The admins can add and delete products on this page. To add a product all the fo
 
 ![Admin Add Prod](https://user-images.githubusercontent.com/103672052/223600412-87de36d4-54f9-4318-a6ce-d7799b3116d0.png)
 
-***
-
 <br />
+
+***
 
 #### PRODUCT DETAILS
 The admins can update a product from this page. The admin only needs to fill the field he wants.
@@ -158,9 +158,9 @@ The admins can update a product from this page. The admin only needs to fill the
 
 ![Admin Update Prod 2](https://user-images.githubusercontent.com/103672052/223600445-d575579e-788f-4d73-9bf1-5aa4340d2956.png)
 
-***
-
 <br />
+
+***
 
 ### A SHORT VIDEO DEMONSTRATION
 
@@ -208,9 +208,9 @@ Checkout:
 
 https://user-images.githubusercontent.com/103672052/223594899-d63857c3-a10d-4dd1-9fa3-48288f237dc4.mp4
 
-***
-
 <br />
+
+***
 
 #### LOGGED IN USER
 
@@ -232,9 +232,9 @@ Rating and Checkout:
 
 https://user-images.githubusercontent.com/103672052/223595377-e62c0da2-6dd8-458f-b09b-6395b6acdada.mp4
 
-***
-
 <br />
+
+***
 
 #### ADMIN
 
@@ -262,9 +262,9 @@ Add User:
 
 https://user-images.githubusercontent.com/103672052/223595572-e247990e-0270-4977-b0a5-5d6dc00c149d.mp4
 
-***
-
 <br />
+
+***
 
 #### NOT FOUND / FORBIDDEN PAGES
 
