@@ -12,6 +12,8 @@ Path should be specific to localhost or to: https://store-project-production.up.
 
 ***
 
+### USERS PAGES
+
 ### HOME PAGE
 The ***Home Page*** contains a ***Header*** which allows the user to navigate back to the ***Home Page***, search products via ***Search Bar***, navigate to the ***Login***/***Register***, ***Wish List*** and ***Shopping Cart*** pages.
 It also contains two buttons in the main element which allows the user navigating to the Products Page and to the Products Page filtered by jewelery category.
@@ -30,7 +32,7 @@ If, for some reason, you want to decrypt them, you need to use the CryptoJS libr
 ***
 
 ### PRODUCTS PAGE
-This page contains all the products available in the store. Here, the user can add products to the ***Wish List*** and filter products to find the product they desire quickly.
+This page contains all the products available in the store. Here, the user can add products to the ***Wish List***, by clicking on the heart image, and filter products to find the product they desire quickly.
 
 ### Filters
 The filters have a ***Sort by*** and a ***Filter by*** section. Both can be combined but the user can only use a filter at once.
@@ -58,16 +60,25 @@ The ***Search Bar*** can also be combined with the ***Filters***. To do so, the 
 ***
 
 ### PRODUCT DETAILS
-This page allows the user to read the product details, add units of it to the ***Shopping Cart*** and, if the user is logged, allows the user to rate the product by clicking on the stars.
+This page allows the user to read the product details, add units of it to the ***Shopping Cart*** and, if the user is logged, allows the user to rate the product by clicking on the stars images.
 
+** Print de Product Details **
 
+***
 
+### WISH LIST
+This page allows the users to save their favorite products. Clicking on the product, the user is redirected to the ***Product Details*** page. The product can be removed from the list by clicking on the heart image.
 
-The Header contains Search Bar which allows the user to search for any product. Pressing the enter button, while focused on the Search Bar, redirects the user to the Products Page, showing only the products that contain the text passed through the Seacrh Bar in it's title, description, price or category
+** Print de Wish List **
 
+***
 
+### SHOPPING CART
+This page allows the user to buy the products on the list. The checkout can be done by logging in or by filling a litle form.
 
+** Print de Shopping Cart **
 
+***
 
 ### `npm start`
 
