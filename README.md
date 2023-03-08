@@ -5,16 +5,16 @@
 The Front-End implementation of the E-Commerce type of store made with React. 
 Created with the purpose of giving it's users the ability to search, add to wish list/shopping cart, rate and buy desired products, ranging from clothing to jewelry. The Back-End consists in Java Spring Boot which provides two roles (User and Admin) and filters to filter the search.
 
-***
-
 <br />
+
+***
 
 ### API LINKS
 Path should be specific to localhost or to: https://store-project-production.up.railway.app
 
-***
-
 <br />
+
+***
 
 ### USERS PAGES
 Bellow are the pages to which the users (logged in or not) have access.
