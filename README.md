@@ -21,6 +21,7 @@ It also contains two buttons in the main element which allows the user navigatin
 
 ** Print da Home Page **
 
+***
 
 #### LOGIN / REGISTER
 Both ***Login*** and ***Register*** consist in a form which allows the user to log in their account and create and account, respectively.
@@ -29,10 +30,15 @@ If, for some reason, you want to decrypt them, you need to use the CryptoJS libr
 
 ** Print das pags Login e Register **
 
+***
 
 #### ACCOUNT PAGE
 To have access to this page the user must be logged in. It's accessed by clicking on the same icon that redirects to the ***Login*** page. Here, the user can see he's profile and update it.
+If a unlogged user tries to access the account page by pasting the link on the browser (pasting */account* on the url) the user is redirected to the ***Home Page***.
 
+** Print da Account Page **
+
+***
 
 #### PRODUCTS PAGE
 This page contains all the products available in the store. Here, the user can add products to the ***Wish List***, by clicking on the heart image, and filter products to find the product they desire quickly.
@@ -60,90 +66,76 @@ The ***Search Bar*** can also be combined with the ***Filters***. To do so, the 
 
 ** Print da Search Bar aberta **
 
+***
 
 #### PRODUCT DETAILS
 This page allows the user to read the product details, add units of it to the ***Shopping Cart*** and, if the user is logged, allows the user to rate the product by clicking on the stars images.
 
 ** Print de Product Details **
 
+***
 
 #### WISH LIST
 This page allows the users to save their favorite products. Clicking on the product, the user is redirected to the ***Product Details*** page. The product can be removed from the list by clicking on the heart image.
 
 ** Print de Wish List **
 
+***
 
 #### SHOPPING CART
 This page allows the user to buy the products on the list. The checkout can be done by logging in or by filling a litle form.
 
 ** Print de Shopping Cart **
 
-****
+***
 
 ### ADMIN PAGES
-The admins have access to everything users have but with some extras.
+The admins have access to everything users have but with some extras. They just can't rate a product.
+If a user tries to access any admin's page by pasting the link on the browser (for example, pasting */addproduct* on the url) the user is redirected to the ***Home Page***.
 
-#### 
+#### ACCOUNT PAGE
+In this page, the admins have access to the users list, user's profile (by clicking on the user on the list) and can add a user to the Data Base. There is a ***Search Bar*** on the users list which allows the admin to search specific users by first name, last name, email, address and date of birth.
 
-### `npm start`
+** Prints Account Admin **
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+***
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### PRODUCTS PAGE
+The admins can add and delete products on this page. To add a product all the form fields must be filled.
 
-### `npm test`
+** Prints Products Page Admin **
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+***
 
-### `npm run build`
+#### PRODUCT DETAILS
+The admins can update a product from this page. The admin only needs to fill the field he wants.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+** Print de Product Details **
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+***
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### A SHORT VIDEO DEMONSTRATION
 
-### `npm run eject`
+#### UNLOOGED USER
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+** Videos **
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+***
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### LOGGED IN USER
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+** Videos **
 
-## Learn More
+***
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### ADMIN
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+** Videos **
 
-### Code Splitting
+***
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### NOT FOUND / FORBIDDEN PAGES
 
-### Analyzing the Bundle Size
+** Videos **
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+***
