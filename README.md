@@ -3,11 +3,7 @@
 ### SUMMARY
 
 The Front-End implementation of the E-Commerce type of store made with React. 
-Created with the purpose of giving it's users the ability to search, add to wish list/cart, rate and buy desired products, ranging from clothing to jewelry. The Back-End consists in Java Spring Boot which provides two roles (User and Admin) and filters to filter the search.
-
-It also has some filters which allow the user to filter products by category, rating and price.
-
-Made use of login/register endpoints of the Java Springboot API (previously built) also with search filters to order (ascending/descending) products by rating, category and number of products per page. Also used fully functional pagination, aswell as other miscellaneous.
+Created with the purpose of giving it's users the ability to search, add to wish list/shopping cart, rate and buy desired products, ranging from clothing to jewelry. The Back-End consists in Java Spring Boot which provides two roles (User and Admin) and filters to filter the search.
 
 ***
 
@@ -17,7 +13,7 @@ Path should be specific to localhost or to: https://store-project-production.up.
 ***
 
 ### HOME PAGE
-The *Home Page* contains a *Header* which allows the user to navigate back to the *Home Page*, search products via *Search Bar*, navigate to the *Login*/*Register*, *Wish List* and *Shopping Cart* pages.
+The ***Home Page*** contains a ***Header*** which allows the user to navigate back to the ***Home Page***, search products via ***Search Bar***, navigate to the ***Login***/***Register***, ***Wish List*** and ***Shopping Cart*** pages.
 It also contains two buttons in the main element which allows the user navigating to the Products Page and to the Products Page filtered by jewelery category.
 
 ** Print da Home Page **
@@ -25,21 +21,44 @@ It also contains two buttons in the main element which allows the user navigatin
 ***
 
 ### LOGIN / REGISTER
-Both *Login* and *Register* consist in a form which allows the user to log in their account and create and account, respectively:
+Both ***Login*** and ***Register*** consist in a form which allows the user to log in their account and create and account, respectively.
+The ***Login*** informations, along with the ***Shopping Cart*** and the ***Wish List***, are encrypted and stored on the browser's *Local Storage*.
+If, for some reason, you want to decrypt them, you need to use the CryptoJS library and the secret keys stored in the ***secretKeys.js***.
 
 ** Print das pags Login e Register **
 
 ***
 
 ### PRODUCTS PAGE
-This page contains all the products available in the store. It contains filters to help the user find the products their desire quickly.
+This page contains all the products available in the store. Here, the user can add products to the ***Wish List*** and filter products to find the product they desire quickly.
 
-### FILTERS
-The filters have a **Sort by** and a ***Filter by*** section. Both can be combined but the user can only use a filter at once.
-The *Sort by* section contain an *ASC* and *DESC* option (acts diferently depending on the filter that's being combined with)
-The *Filter by* section have three filters: *Category*, *Rate* and *Price*.
+### Filters
+The filters have a ***Sort by*** and a ***Filter by*** section. Both can be combined but the user can only use a filter at once.
+The ***Sort by*** section contain an ***ASC*** and ***DESC*** options (acts diferently depending on the filter that's being combined with)
+The ***Filter by*** section have three filters: ***Category***, ***Rate*** and ***Price***.
 
-### Filter by Category
+**Filter by Category:** Allows the user to filter the products by category. When combined with ***Sort by***, ***ASC*** and ***DESC*** options sort the products by alphabetical order.
+
+** Print do Filtro Category **
+
+**Filter by Rate:** Allows the user to filter the products by rate. When combined with ***Sort by***, ***ASC*** and ***DESC*** options sort the products by it's rate.
+
+** Print do Filtro Rate **
+
+**Filter by Price:** Allows the user to filter the products by price. When combined with ***Sort by***, ***ASC*** and ***DESC*** options sort the products by it's price.
+
+** Print do Filtro Price **
+
+### Search Bar
+The ***Search Bar*** is the element that can be used from any part of the website. By writing something on it, it's displayed a list of products where the product's title, description, category or price matches the text entered in the ***Search Bar***. By clicking on the product, the user is redirected to the page of that single product. By clicking *Enter*, the user is redirected to the ***Products Page*** with all the products that match the entered text on the ***Search Bar***.
+The ***Search Bar*** can also be combined with the ***Filters***. To do so, the user should select a ***Filter*** first, then write something on the ***Search Bar*** and pressing *Enter* at the end.
+
+** Print da Search Bar aberta **
+
+***
+
+### PRODUCT DETAILS
+This page allows the user to read the product details, add units of it to the ***Shopping Cart*** and, if the user is logged, allows the user to rate the product by clicking on the stars.
 
 
 
