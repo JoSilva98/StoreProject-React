@@ -1,7 +1,5 @@
 # Store Project - React
 
-<br />
-
 ### SUMMARY
 
 The Front-End implementation of the E-Commerce type of store made with React. 
