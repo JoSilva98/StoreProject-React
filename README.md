@@ -78,7 +78,7 @@ This page allows the user to buy the products on the list. The checkout can be d
 
 ** Print de Shopping Cart **
 
-***
+****
 
 ### ADMIN PAGES
 The admins have access to everything users have but with some extras.
