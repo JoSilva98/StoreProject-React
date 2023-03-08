@@ -119,24 +119,31 @@ The admins can update a product from this page. The admin only needs to fill the
 #### UNLOOGED USER
 
 Quick Overview:
+
 https://user-images.githubusercontent.com/103672052/223594833-e1401ed7-9148-4e3c-9ee2-ea4d2b2f2184.mp4
 
 Category Filter:
+
 https://user-images.githubusercontent.com/103672052/223594852-40366faa-b502-4844-afe9-dd40487dc3d7.mp4
 
 Rating and Price Filters:
+
 https://user-images.githubusercontent.com/103672052/223594861-7367e5b4-579e-406d-8a1a-8ebd06a31edb.mp4
 
 Product Details and Wish List:
+
 https://user-images.githubusercontent.com/103672052/223594880-2d4efe9b-8493-4c89-8f1c-a31f3abe11d7.mp4
 
 Search Bar:
+
 https://user-images.githubusercontent.com/103672052/223594888-5865e127-d4c4-4b5f-864d-e5fe9b316c0d.mp4
 
 Shopping Cart:
+
 https://user-images.githubusercontent.com/103672052/223594893-30e2febe-de8c-4bf5-bd7b-6bf8b34a6321.mp4
 
 Checkout:
+
 https://user-images.githubusercontent.com/103672052/223594899-d63857c3-a10d-4dd1-9fa3-48288f237dc4.mp4
 
 ***
@@ -144,12 +151,15 @@ https://user-images.githubusercontent.com/103672052/223594899-d63857c3-a10d-4dd1
 #### LOGGED IN USER
 
 Register:
+
 https://user-images.githubusercontent.com/103672052/223595366-c27fbaf8-50cc-4455-b622-ce192d126fb1.mp4
 
 Profile and Update Profile:
+
 https://user-images.githubusercontent.com/103672052/223595372-27be694c-219e-4a9b-b2b1-b4690192440f.mp4
 
 Rating and Checkout:
+
 https://user-images.githubusercontent.com/103672052/223595377-e62c0da2-6dd8-458f-b09b-6395b6acdada.mp4
 
 ***
@@ -157,6 +167,7 @@ https://user-images.githubusercontent.com/103672052/223595377-e62c0da2-6dd8-458f
 #### ADMIN
 
 Delete and Update Products:
+
 https://user-images.githubusercontent.com/103672052/223595536-5817f664-646f-4246-ba2a-fb44cfc885d7.mp4
 
 Add Product:
@@ -178,6 +189,7 @@ https://user-images.githubusercontent.com/103672052/223595572-e247990e-0270-4977
 Not Found Products and Not Found Path:
 
 https://user-images.githubusercontent.com/103672052/223595709-39230db6-e67a-44a8-b8c1-050afa3779dd.mp4
+
 <br />
 
 Forbidden Pages:
