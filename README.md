@@ -118,7 +118,19 @@ The admins can update a product from this page. The admin only needs to fill the
 
 #### UNLOOGED USER
 
-** Videos **
+https://user-images.githubusercontent.com/103672052/223594833-e1401ed7-9148-4e3c-9ee2-ea4d2b2f2184.mp4
+
+https://user-images.githubusercontent.com/103672052/223594852-40366faa-b502-4844-afe9-dd40487dc3d7.mp4
+
+https://user-images.githubusercontent.com/103672052/223594861-7367e5b4-579e-406d-8a1a-8ebd06a31edb.mp4
+
+https://user-images.githubusercontent.com/103672052/223594880-2d4efe9b-8493-4c89-8f1c-a31f3abe11d7.mp4
+
+https://user-images.githubusercontent.com/103672052/223594888-5865e127-d4c4-4b5f-864d-e5fe9b316c0d.mp4
+
+https://user-images.githubusercontent.com/103672052/223594893-30e2febe-de8c-4bf5-bd7b-6bf8b34a6321.mp4
+
+https://user-images.githubusercontent.com/103672052/223594899-d63857c3-a10d-4dd1-9fa3-48288f237dc4.mp4
 
 ***
 
