@@ -19,8 +19,6 @@ Bellow are the pages to which the users (logged in or not) have access.
 The ***Home Page*** contains a ***Header*** which allows the user to navigate back to the ***Home Page***, search products via ***Search Bar***, navigate to the ***Login***/***Register***, ***Wish List*** and ***Shopping Cart*** pages.
 It also contains two buttons in the main element which allows the user navigating to the Products Page and to the Products Page filtered by jewelery category.
 
-** Print da Home Page **
-
 ![Home Page](https://user-images.githubusercontent.com/103672052/223599194-a4a6e53f-54bd-4265-a65b-c2f7ce70c8de.png)
 
 ***
@@ -30,7 +28,9 @@ Both ***Login*** and ***Register*** consist in a form which allows the user to l
 The ***Login*** informations, along with the ***Shopping Cart*** and the ***Wish List***, are encrypted and stored on the browser's *Local Storage*.
 If, for some reason, you want to decrypt them, you need to use the CryptoJS library and the secret keys stored in the ***secretKeys.js***.
 
-** Print das pags Login e Register **
+![Login](https://![Register](https://user-images.githubusercontent.com/103672052/223599474-5fad2685-93e6-406d-aa2a-77f54bc0e3a8.png)
+
+![Register](https://user-images.githubusercontent.com/103672052/223599507-9cc0e168-c512-4559-8f59-38d3a176a784.png)
 
 ***
 
@@ -38,7 +38,11 @@ If, for some reason, you want to decrypt them, you need to use the CryptoJS libr
 To have access to this page the user must be logged in. It's accessed by clicking on the same icon that redirects to the ***Login*** page. Here, the user can see he's profile and update it.
 If a unlogged user tries to access the account page by pasting the link on the browser (pasting */account* on the url) the user is redirected to the ***Home Page***.
 
-** Print da Account Page **
+![Account](https://user-images.githubusercontent.com/103672052/223599681-34545124-9270-41df-b66f-b6b9aa5589db.png)
+
+![Profile](https://user-images.githubusercontent.com/103672052/223600607-39d49a70-a8ff-487e-be0b-e6a26e7eefad.png)
+
+![Update Profile](https://user-images.githubusercontent.com/103672052/223600622-9795c8eb-f21e-4448-ab40-d0837525a96f.png)
 
 ***
 
@@ -52,42 +56,46 @@ The ***Filter by*** section have three filters: ***Category***, ***Rate*** and *
 
 **Filter by Category:** Allows the user to filter the products by category. When combined with ***Sort by***, ***ASC*** and ***DESC*** options sort the products by alphabetical order.
 
-** Print do Filtro Category **
+![Category Filter](https://user-images.githubusercontent.com/103672052/223599758-255301f5-6c2c-469e-8892-117dc84ccbd0.png)
 
 **Filter by Rate:** Allows the user to filter the products by rate. When combined with ***Sort by***, ***ASC*** and ***DESC*** options sort the products by it's rate.
 
-** Print do Filtro Rate **
+![Rate Filter](https://user-images.githubusercontent.com/103672052/223599795-68339058-0e41-44ed-9753-ad9ec9aaa41b.png)
 
 **Filter by Price:** Allows the user to filter the products by price. When combined with ***Sort by***, ***ASC*** and ***DESC*** options sort the products by it's price.
 
-** Print do Filtro Price **
+![Price Filter](https://user-images.githubusercontent.com/103672052/223599824-531fc56a-5209-4aa8-9119-60a9d1df5bc8.png)
 
 #### Search Bar
 The ***Search Bar*** is the element that can be used from any part of the website. By writing something on it, it's displayed a list of products where the product's title, description, category or price matches the text entered in the ***Search Bar***. By clicking on the product, the user is redirected to the page of that single product. By clicking *Enter*, the user is redirected to the ***Products Page*** with all the products that match the entered text on the ***Search Bar***.
 The ***Search Bar*** can also be combined with the ***Filters***. To do so, the user should select a ***Filter*** first, then write something on the ***Search Bar*** and pressing *Enter* at the end.
 
-** Print da Search Bar aberta **
+![Search Bar](https://user-images.githubusercontent.com/103672052/223599867-ba4b6bd4-18d1-4bbc-8f12-a3ff9e89637d.png)
 
 ***
 
 #### PRODUCT DETAILS
 This page allows the user to read the product details, add units of it to the ***Shopping Cart*** and, if the user is logged, allows the user to rate the product by clicking on the stars images.
 
-** Print de Product Details **
+![Product Details](https://user-images.githubusercontent.com/103672052/223599895-c9bcc3b4-136c-4a44-8cc1-c53f2852969e.png)
 
 ***
 
 #### WISH LIST
 This page allows the users to save their favorite products. Clicking on the product, the user is redirected to the ***Product Details*** page. The product can be removed from the list by clicking on the heart image.
 
-** Print de Wish List **
+![Wish List](https://user-images.githubusercontent.com/103672052/223599928-8e05a57e-3424-4a46-9966-fe5104e874df.png)
 
 ***
 
 #### SHOPPING CART
 This page allows the user to buy the products on the list. The checkout can be done by logging in or by filling a litle form.
 
-** Print de Shopping Cart **
+![Shopping Cart Unlogged](https://user-images.githubusercontent.com/103672052/223599970-3d7f0382-9482-4a49-b364-1033dc62ff56.png)
+
+![Shopping Cart Login](https://user-images.githubusercontent.com/103672052/223599993-9fadb8ca-5e9a-44a9-adef-3e067eb0c57d.png)
+
+![Shopping Cart Logged In](https://user-images.githubusercontent.com/103672052/223600030-e470d416-dad1-4169-905a-6791a1f0c8ab.png)
 
 ***
 
@@ -98,21 +106,29 @@ If a user tries to access any admin's page by pasting the link on the browser (f
 #### ACCOUNT PAGE
 In this page, the admins have access to the users list, user's profile (by clicking on the user on the list) and can add a user to the Data Base. There is a ***Search Bar*** on the users list which allows the admin to search specific users by first name, last name, email, address and date of birth.
 
-** Prints Account Admin **
+![Admin Account](https://user-images.githubusercontent.com/103672052/223600288-0f23bc17-b066-4a78-8a27-4140413a361a.png)
+
+![User List](https://user-images.githubusercontent.com/103672052/223600322-02e567bb-9474-4188-b0d4-02bf58757fa1.png)
+
+![Add User](https://user-images.githubusercontent.com/103672052/223600338-43c0e46c-0904-4cf4-986d-1544ddc9d61f.png)
 
 ***
 
 #### PRODUCTS PAGE
 The admins can add and delete products on this page. To add a product all the form fields must be filled.
 
-** Prints Products Page Admin **
+![Admin Products](https://user-images.githubusercontent.com/103672052/223600366-0e1a6404-cee5-4c0e-ad98-dbe25c92d792.png)
+
+![Admin Add Prod](https://user-images.githubusercontent.com/103672052/223600412-87de36d4-54f9-4318-a6ce-d7799b3116d0.png)
 
 ***
 
 #### PRODUCT DETAILS
 The admins can update a product from this page. The admin only needs to fill the field he wants.
 
-** Print de Product Details **
+![Admin Update Prod 1](https://user-images.githubusercontent.com/103672052/223600433-41735e2c-e17a-473a-9383-2acd0e77117e.png)
+
+![Admin Update Prod 2](https://user-images.githubusercontent.com/103672052/223600445-d575579e-788f-4d73-9bf1-5aa4340d2956.png)
 
 ***
 
