@@ -70,13 +70,13 @@ The ***Filter by*** section have three filters: ***Category***, ***Rate*** and *
 
 <br />
 
-**Filter by Rate:** Allows the user to filter the products by rate. When combined with ***Sort by***, ***ASC*** and ***DESC*** options sort the products by it's rate.
+* **Filter by Rate:** Allows the user to filter the products by rate. When combined with ***Sort by***, ***ASC*** and ***DESC*** options sort the products by it's rate.
 
 ![Rate Filter](https://user-images.githubusercontent.com/103672052/223599795-68339058-0e41-44ed-9753-ad9ec9aaa41b.png)
 
 <br />
 
-**Filter by Price:** Allows the user to filter the products by price. When combined with ***Sort by***, ***ASC*** and ***DESC*** options sort the products by it's price.
+* **Filter by Price:** Allows the user to filter the products by price. When combined with ***Sort by***, ***ASC*** and ***DESC*** options sort the products by it's price.
 
 ![Price Filter](https://user-images.githubusercontent.com/103672052/223599824-531fc56a-5209-4aa8-9119-60a9d1df5bc8.png)
 
@@ -126,8 +126,6 @@ This page allows the user to buy the products on the list. The checkout can be d
 ### ADMIN PAGES
 The admins have access to everything users have but with some extras. They just can't rate a product.
 If a user tries to access any admin's page by pasting the link on the browser (for example, pasting */addproduct* on the url) the user is redirected to the ***Home Page***.
-
-<br />
 
 #### ACCOUNT PAGE
 In this page, the admins have access to the users list, user's profile (by clicking on the user on the list) and can add a user to the Data Base. There is a ***Search Bar*** on the users list which allows the admin to search specific users by first name, last name, email, address and date of birth.
