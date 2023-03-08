@@ -64,7 +64,7 @@ The filters have a ***Sort by*** and a ***Filter by*** section. Both can be comb
 The ***Sort by*** section contain an ***ASC*** and ***DESC*** options (acts diferently depending on the filter that's being combined with)
 The ***Filter by*** section have three filters: ***Category***, ***Rate*** and ***Price***.
 
-***Filter by Category:** Allows the user to filter the products by category. When combined with ***Sort by***, ***ASC*** and ***DESC*** options sort the products by alphabetical order.
+* **Filter by Category:** Allows the user to filter the products by category. When combined with ***Sort by***, ***ASC*** and ***DESC*** options sort the products by alphabetical order.
 
 ![Category Filter](https://user-images.githubusercontent.com/103672052/223599758-255301f5-6c2c-469e-8892-117dc84ccbd0.png)
 
