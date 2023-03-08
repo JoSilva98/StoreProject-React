@@ -13,6 +13,7 @@ Path should be specific to localhost or to: https://store-project-production.up.
 ***
 
 ### USERS PAGES
+Bellow are the pages to which the users (logged in or not) have access.
 
 #### HOME PAGE
 The ***Home Page*** contains a ***Header*** which allows the user to navigate back to the ***Home Page***, search products via ***Search Bar***, navigate to the ***Login***/***Register***, ***Wish List*** and ***Shopping Cart*** pages.
@@ -20,7 +21,6 @@ It also contains two buttons in the main element which allows the user navigatin
 
 ** Print da Home Page **
 
-***
 
 #### LOGIN / REGISTER
 Both ***Login*** and ***Register*** consist in a form which allows the user to log in their account and create and account, respectively.
@@ -29,7 +29,10 @@ If, for some reason, you want to decrypt them, you need to use the CryptoJS libr
 
 ** Print das pags Login e Register **
 
-***
+
+#### ACCOUNT PAGE
+To have access to this page the user must be logged in. It's accessed by clicking on the same icon that redirects to the ***Login*** page. Here, the user can see he's profile and update it.
+
 
 #### PRODUCTS PAGE
 This page contains all the products available in the store. Here, the user can add products to the ***Wish List***, by clicking on the heart image, and filter products to find the product they desire quickly.
@@ -57,21 +60,18 @@ The ***Search Bar*** can also be combined with the ***Filters***. To do so, the 
 
 ** Print da Search Bar aberta **
 
-***
 
 #### PRODUCT DETAILS
 This page allows the user to read the product details, add units of it to the ***Shopping Cart*** and, if the user is logged, allows the user to rate the product by clicking on the stars images.
 
 ** Print de Product Details **
 
-***
 
 #### WISH LIST
 This page allows the users to save their favorite products. Clicking on the product, the user is redirected to the ***Product Details*** page. The product can be removed from the list by clicking on the heart image.
 
 ** Print de Wish List **
 
-***
 
 #### SHOPPING CART
 This page allows the user to buy the products on the list. The checkout can be done by logging in or by filling a litle form.
@@ -79,6 +79,11 @@ This page allows the user to buy the products on the list. The checkout can be d
 ** Print de Shopping Cart **
 
 ***
+
+### ADMIN PAGES
+The admins have access to everything users have but with some extras.
+
+#### 
 
 ### `npm start`
 
