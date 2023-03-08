@@ -1,5 +1,7 @@
 # Store Project - React
 
+<br />
+
 ### SUMMARY
 
 The Front-End implementation of the E-Commerce type of store made with React. 
@@ -7,10 +9,14 @@ Created with the purpose of giving it's users the ability to search, add to wish
 
 ***
 
+<br />
+
 ### API LINKS
 Path should be specific to localhost or to: https://store-project-production.up.railway.app
 
 ***
+
+<br />
 
 ### USERS PAGES
 Bellow are the pages to which the users (logged in or not) have access.
@@ -25,6 +31,8 @@ It also contains two buttons in the main element which allows the user navigatin
 
 ***
 
+<br />
+
 #### LOGIN / REGISTER
 Both ***Login*** and ***Register*** consist in a form which allows the user to log in their account and create and account, respectively.
 The ***Login*** informations, along with the ***Shopping Cart*** and the ***Wish List***, are encrypted and stored on the browser's *Local Storage*.
@@ -32,11 +40,13 @@ If, for some reason, you want to decrypt them, you need to use the CryptoJS libr
 
 <br />
 
-![Login](https://![Register](https://user-images.githubusercontent.com/103672052/223599474-5fad2685-93e6-406d-aa2a-77f54bc0e3a8.png)
+![Login](https://user-images.githubusercontent.com/103672052/223601052-ff53def3-5223-4b62-a75c-3b658add7c35.png)
 
 ![Register](https://user-images.githubusercontent.com/103672052/223599507-9cc0e168-c512-4559-8f59-38d3a176a784.png)
 
 ***
+
+<br />
 
 #### ACCOUNT PAGE
 To have access to this page the user must be logged in. It's accessed by clicking on the same icon that redirects to the ***Login*** page. Here, the user can see he's profile and update it.
@@ -52,13 +62,19 @@ If a unlogged user tries to access the account page by pasting the link on the b
 
 ***
 
+<br />
+
 #### PRODUCTS PAGE
 This page contains all the products available in the store. Here, the user can add products to the ***Wish List***, by clicking on the heart image, and filter products to find the product they desire quickly.
+
+<br />
 
 #### Filters
 The filters have a ***Sort by*** and a ***Filter by*** section. Both can be combined but the user can only use a filter at once.
 The ***Sort by*** section contain an ***ASC*** and ***DESC*** options (acts diferently depending on the filter that's being combined with)
 The ***Filter by*** section have three filters: ***Category***, ***Rate*** and ***Price***.
+
+<br />
 
 **Filter by Category:** Allows the user to filter the products by category. When combined with ***Sort by***, ***ASC*** and ***DESC*** options sort the products by alphabetical order.
 
@@ -66,17 +82,23 @@ The ***Filter by*** section have three filters: ***Category***, ***Rate*** and *
 
 ![Category Filter](https://user-images.githubusercontent.com/103672052/223599758-255301f5-6c2c-469e-8892-117dc84ccbd0.png)
 
+<br />
+
 **Filter by Rate:** Allows the user to filter the products by rate. When combined with ***Sort by***, ***ASC*** and ***DESC*** options sort the products by it's rate.
 
 <br />
 
 ![Rate Filter](https://user-images.githubusercontent.com/103672052/223599795-68339058-0e41-44ed-9753-ad9ec9aaa41b.png)
 
+<br />
+
 **Filter by Price:** Allows the user to filter the products by price. When combined with ***Sort by***, ***ASC*** and ***DESC*** options sort the products by it's price.
 
 <br />
 
 ![Price Filter](https://user-images.githubusercontent.com/103672052/223599824-531fc56a-5209-4aa8-9119-60a9d1df5bc8.png)
+
+<br />
 
 #### Search Bar
 The ***Search Bar*** is the element that can be used from any part of the website. By writing something on it, it's displayed a list of products where the product's title, description, category or price matches the text entered in the ***Search Bar***. By clicking on the product, the user is redirected to the page of that single product. By clicking *Enter*, the user is redirected to the ***Products Page*** with all the products that match the entered text on the ***Search Bar***.
@@ -88,6 +110,8 @@ The ***Search Bar*** can also be combined with the ***Filters***. To do so, the 
 
 ***
 
+<br />
+
 #### PRODUCT DETAILS
 This page allows the user to read the product details, add units of it to the ***Shopping Cart*** and, if the user is logged, allows the user to rate the product by clicking on the stars images.
 
@@ -97,6 +121,8 @@ This page allows the user to read the product details, add units of it to the **
 
 ***
 
+<br />
+
 #### WISH LIST
 This page allows the users to save their favorite products. Clicking on the product, the user is redirected to the ***Product Details*** page. The product can be removed from the list by clicking on the heart image.
 
@@ -105,6 +131,8 @@ This page allows the users to save their favorite products. Clicking on the prod
 ![Wish List](https://user-images.githubusercontent.com/103672052/223599928-8e05a57e-3424-4a46-9966-fe5104e874df.png)
 
 ***
+
+<br />
 
 #### SHOPPING CART
 This page allows the user to buy the products on the list. The checkout can be done by logging in or by filling a litle form.
@@ -118,6 +146,8 @@ This page allows the user to buy the products on the list. The checkout can be d
 ![Shopping Cart Logged In](https://user-images.githubusercontent.com/103672052/223600030-e470d416-dad1-4169-905a-6791a1f0c8ab.png)
 
 ***
+
+<br />
 
 ### ADMIN PAGES
 The admins have access to everything users have but with some extras. They just can't rate a product.
@@ -136,6 +166,8 @@ In this page, the admins have access to the users list, user's profile (by click
 
 ***
 
+<br />
+
 #### PRODUCTS PAGE
 The admins can add and delete products on this page. To add a product all the form fields must be filled.
 
@@ -147,6 +179,8 @@ The admins can add and delete products on this page. To add a product all the fo
 
 ***
 
+<br />
+
 #### PRODUCT DETAILS
 The admins can update a product from this page. The admin only needs to fill the field he wants.
 
@@ -157,6 +191,8 @@ The admins can update a product from this page. The admin only needs to fill the
 ![Admin Update Prod 2](https://user-images.githubusercontent.com/103672052/223600445-d575579e-788f-4d73-9bf1-5aa4340d2956.png)
 
 ***
+
+<br />
 
 ### A SHORT VIDEO DEMONSTRATION
 
