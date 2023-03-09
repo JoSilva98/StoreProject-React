@@ -6,7 +6,7 @@ export default async function getUser({ id, token }, isAdmin) {
         }
     }
 
-    const link = `${process.env.REACT_APP_API_URL} ${isAdmin ? "/api/v1/admins/users/" : "/api/v1/users/"}`
+    const link = `https://store-project-production.up.railway.app${isAdmin ? "/api/v1/admins/users/" : "/api/v1/users/"}`
     const res = await fetch(link + id, request)
     if (res.status === 200) return res
 
