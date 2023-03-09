@@ -8,7 +8,8 @@
     font-size: 15px;
     padding: 10px;
     width: 15%;
-    margin: 0 15px;
+    min-width: 188px;
+    margin: 10px 15px;
 }
 
 .page_button:disabled {
@@ -26,4 +27,11 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     margin: 20px 0 25px 0;
+}
+
+@media screen and (max-width: 870px) {
+    .page_buttons, 
+    .page_text_div {
+        margin-left: 0;
+    }
 }

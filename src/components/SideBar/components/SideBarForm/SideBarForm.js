@@ -44,10 +44,10 @@ export default function SideBarForm({ variables, functions }) {
                 }
             </form>
 
-            <div>
+            <div className="side_bar_form2_outer_div">
                 {generateButton("Filter by", "showFilterForm", "main")}
                 {showForms.main.showFilterForm &&
-                    <div>
+                    <div className="side_bar_form2_div">
                         <form className="side_bar_form2">
                             {generateButton("Category", "showCategoryForm", "secondary")}
                             {showForms.secondary.showCategoryForm &&

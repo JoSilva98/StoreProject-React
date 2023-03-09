@@ -81,3 +81,10 @@
     margin-left: var(--side-margin);
     margin-right: var(--side-margin);
 }
+
+@media screen and (max-width: 600px) {
+    .register_main_div {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

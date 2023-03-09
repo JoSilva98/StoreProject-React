@@ -94,26 +94,28 @@ export default function Products() {
     return (
         <div className="products">
             <Header />
-            <SideBar changeLinkProps={changeLinkProps} />
+            <main>
+                <SideBar changeLinkProps={changeLinkProps} />
 
-            {notFound ?
-                <ProductNotFound content="Products not found" isSingle={false} />
-                :
-                <div className="product_list_main">
-                    <div className="product_list">
-                        {products.length === 0 ?
-                            <ProductsSkeleton pageSize={linkProps.pageSize} /> :
-                            products.map(prod => <SingleProduct key={prod.id} product={prod} setRefreshProducts={setRefreshProducts} />)
-                        }
+                {notFound ?
+                    <ProductNotFound content="Products not found" isSingle={false} />
+                    :
+                    <div className="product_list_div">
+                        <div className="product_list">
+                            {products.length === 0 ?
+                                <ProductsSkeleton pageSize={linkProps.pageSize} /> :
+                                products.map(prod => <SingleProduct key={prod.id} product={prod} setRefreshProducts={setRefreshProducts} />)
+                            }
+                        </div>
+
+                        <PageButtons page={linkProps.page}
+                            isLoading={isLoading}
+                            movePage={movePage}
+                            numberOfPages={numberOfPages}
+                        />
                     </div>
-
-                    <PageButtons page={linkProps.page}
-                        isLoading={isLoading}
-                        movePage={movePage}
-                        numberOfPages={numberOfPages}
-                    />
-                </div>
-            }
+                }
+            </main>
             <Footer />
         </div>
     )

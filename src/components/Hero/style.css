@@ -134,5 +134,38 @@
     .clothes_text,
     .jewelery_text {
         font-size: 30px;
+        padding: 15px 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .intro_text {
+        font-size: 30px;
+    }
+
+    .clothes_word,
+    .jewelery_word {
+        font-size: 35px;
+    }
+
+    .clothes_text,
+    .jewelery_text {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .intro_text {
+        font-size: 27px;
+    }
+
+    .clothes_word,
+    .jewelery_word {
+        font-size: 32px;
+    }
+
+    .clothes_text,
+    .jewelery_text {
+        font-size: 22px;
     }
 }
