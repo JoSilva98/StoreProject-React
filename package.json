@@ -1,5 +1,4 @@
 {
-  "homepage": "http://JoSilva98.github.io/StoreProject-React",
   "name": "store-project",
   "version": "0.1.0",
   "private": true,
@@ -16,14 +15,12 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "proxy": "https://cors-anywhere.herokuapp.com/https://store-project-production.up.railway.app",
+  "proxy": "https://store-project-production.up.railway.app",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
