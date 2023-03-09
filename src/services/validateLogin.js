@@ -1,5 +1,5 @@
 export default async function validateLogin({ email, password }) {
-    return await fetch("/login", {
+    return await fetch("https://store-project-production.up.railway.app/login", {
         method: "POST",
         headers: {
             'Content-Type': 'application/json'

@@ -15,6 +15,6 @@ export default async function updateProductFetch(productId, userToken, formData)
         })
     }
 
-    const res = await fetch(`/api/v1/admins/products/${productId}`, request)
+    const res = await fetch(`https://store-project-production.up.railway.app/api/v1/admins/products/${productId}`, request)
     return res
 }

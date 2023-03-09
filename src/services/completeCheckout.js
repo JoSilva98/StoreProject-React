@@ -7,5 +7,5 @@ export default async function completeCheckout(prods) {
         body: JSON.stringify(prods)
     }
 
-    return await fetch("/api/v1/users/buy", request)
+    return await fetch("https://store-project-production.up.railway.app/api/v1/users/buy", request)
 }
