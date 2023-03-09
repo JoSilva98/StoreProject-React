@@ -7,5 +7,5 @@ export default async function completeCheckout(prods) {
         body: JSON.stringify(prods)
     }
 
-    return await fetch(`${process.env.API_URL}/api/v1/users/buy`, request)
+    return await fetch(`${process.env.REACT_APP_API_URL}/api/v1/users/buy`, request)
 }
