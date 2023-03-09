@@ -49,6 +49,7 @@ export default function Login({ isOverlay, loginRef }) {
 
             setLoginFailed(false)
             updateLogin(res.headers.get('ID'), res.headers.get('ROLE'), res.headers.get('Authorization'))
+            console.log(res.headers)
             isOverlay ? window.location.reload(false) : navigate("/")
         }
     }
