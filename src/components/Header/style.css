@@ -124,4 +124,17 @@
     .store_name {
         margin-bottom: 30px;
     }
+
+    .navigation {
+        flex-direction: column;
+    }
+
+    .header_icons {
+        order: 1;
+        margin-bottom: 15px;
+    }
+
+    .search_container {
+        order: 2;
+    }
 }

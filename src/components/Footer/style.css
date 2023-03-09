@@ -8,3 +8,14 @@
     box-shadow: 0px 0px 10px #888888;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+@media screen and (max-width: 360px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_first_p {
+        margin-bottom: 10px;   
+    }
+}

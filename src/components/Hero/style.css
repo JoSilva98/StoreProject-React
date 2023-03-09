@@ -123,6 +123,7 @@
 @media screen and (max-width: 550px) {
     .intro_text {
         font-size: 35px;
+        margin: 0 20px;
     }
 
     .clothes_word,

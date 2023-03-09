@@ -89,9 +89,11 @@ export default function Header() {
                     </div>
                 </div>
 
-                <img className="login_icon" src={loginIcon} alt="Login Icon" onClick={navigateLogin} />
-                <img className="heart_icon" src={heartIcon} alt="Heart Icon" onClick={() => navigate("/wishlist")} />
-                <img className="cart_icon" src={cartIcon} alt="Cart Icon" onClick={() => navigate("/cart")} />
+                <div className="header_icons">
+                    <img className="login_icon" src={loginIcon} alt="Login Icon" onClick={navigateLogin} />
+                    <img className="heart_icon" src={heartIcon} alt="Heart Icon" onClick={() => navigate("/wishlist")} />
+                    <img className="cart_icon" src={cartIcon} alt="Cart Icon" onClick={() => navigate("/cart")} />
+                </div>
             </nav>
         </header>
     )
