@@ -11,7 +11,5 @@ export default async function getProducts(link, setIsLoading) {
     const json = await res.json()
     setIsLoading && setIsLoading(false)
     const numberOfProds = res.headers.get("Number-of-Products")
-
-    console.log(res.headers)
     return { json, numberOfProds }
 }

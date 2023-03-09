@@ -56,7 +56,7 @@ export default function RegisterForm(props) {
                         name="email"
                         value={formData.email.value}
                         onChange={addFormDataValues}
-                        maxLength={30}
+                        maxLength={40}
                     />
                     {error("email")}
                     {emailExists && <p className="error_message">Email already exists</p>}
@@ -95,7 +95,7 @@ export default function RegisterForm(props) {
                         name="address"
                         value={formData.address.value}
                         onChange={addFormDataValues}
-                        maxLength={40}
+                        maxLength={80}
                     />
                     {error("address")}
 
