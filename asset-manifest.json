@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/StoreProject-React/static/css/main.dc97243c.css",
+    "main.js": "/StoreProject-React/static/js/main.e600aacc.js",
+    "static/media/clothes.jpg": "/StoreProject-React/static/media/clothes.bc901cd322b5cebcbca7.jpg",
+    "static/media/404-page.jpg": "/StoreProject-React/static/media/404-page.860b94ea26e80d11d2b4.jpg",
+    "static/media/jewelery.jpg": "/StoreProject-React/static/media/jewelery.94c09502120912f79ba3.jpg",
+    "static/media/empty-cart.png": "/StoreProject-React/static/media/empty-cart.dc3abf3532b9d74853de.png",
+    "static/media/user-logo.png": "/StoreProject-React/static/media/user-logo.a6143582309785dca610.png",
+    "static/media/product-404.png": "/StoreProject-React/static/media/product-404.d896510a1996547bd8f4.png",
+    "static/media/heart.png": "/StoreProject-React/static/media/heart.c412cbaead4744166c20.png",
+    "static/media/remove.png": "/StoreProject-React/static/media/remove.3c662b752278fc52f408.png",
+    "static/media/shopping-cart.png": "/StoreProject-React/static/media/shopping-cart.e74f61edf5e0d2231aed.png",
+    "static/media/user.png": "/StoreProject-React/static/media/user.9e5ca7c88720544fd9d1.png",
+    "static/media/heart-yellow.png": "/StoreProject-React/static/media/heart-yellow.9161b091be3a905a5ec9.png",
+    "static/media/yellow-star.png": "/StoreProject-React/static/media/yellow-star.a7e36ca3d7ab6ccee833.png",
+    "static/media/remove-prod.png": "/StoreProject-React/static/media/remove-prod.75637132e15283f97078.png",
+    "index.html": "/StoreProject-React/index.html",
+    "main.dc97243c.css.map": "/StoreProject-React/static/css/main.dc97243c.css.map",
+    "main.e600aacc.js.map": "/StoreProject-React/static/js/main.e600aacc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc97243c.css",
+    "static/js/main.e600aacc.js"
+  ]
+}
