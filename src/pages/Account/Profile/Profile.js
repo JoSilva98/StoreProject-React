@@ -43,7 +43,7 @@ export default function Profile() {
         <Header />
         {loading ? <main />
             :
-            <main>
+            <main className="profile_main">
                 <div>
                     <h2>
                         {user.firstName + " " + user.lastName}

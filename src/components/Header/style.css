@@ -115,6 +115,12 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 700px) {
+    .header {
+        padding: 30px 20px;
+    }
+}
+
 @media screen and (max-width: 620px) {
     .header {
         flex-direction: column;
@@ -184,5 +190,11 @@
 @media screen and (max-width: 530px) {
     .store_name {
         width: 150px;
+    }
+}
+
+@media screen and (max-width: 266px) {
+    .store_name {
+        width: 135px;
     }
 }

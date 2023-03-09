@@ -166,6 +166,7 @@ fieldset button,
     .side_bar_form_inputs {
         width: 100%;
         min-width: 0;
+        margin-left: 10px;
     }
 }
 

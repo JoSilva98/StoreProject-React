@@ -133,3 +133,9 @@
 .users_list_address::-webkit-scrollbar {
     height: 0;
 }
+
+@media screen and (max-height: 840px) {
+    .users_list_main {
+        margin-top: 80px;
+    }
+}

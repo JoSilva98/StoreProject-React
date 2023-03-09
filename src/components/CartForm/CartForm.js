@@ -95,7 +95,7 @@ export default function CartForm(props) {
                             <button onClick={buyProds}>Checkout</button>
                         </div>
 
-                        <div>
+                        <div className="unlogged_checkout">
                             {status.success && <p className="cart_prods_buy_complete">Completed Purchase!</p>}
                             {status.empty && <p className="cart_prods_buy_empty">Cart is Empty</p>}
                             {status.error && <p className="cart_prods_buy_error">An Error Ocurred</p>}

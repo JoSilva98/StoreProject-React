@@ -19,3 +19,20 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(82, 87, 92);
 }
+
+@media screen and (max-width: 804px) {
+
+    .not_found,
+    .not_found img,
+    .not_found h2 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .not_found h2 {
+        font-size: 20px;
+    }
+}

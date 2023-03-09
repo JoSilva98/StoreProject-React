@@ -19,3 +19,9 @@
         margin-bottom: 10px;   
     }
 }
+
+@media screen and (max-width: 275px) {
+    .footer {
+        font-size: 15px;
+    }
+}

@@ -83,7 +83,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 450px;
+
 }
 
 .cart_summary_input,
@@ -162,4 +162,123 @@
 .cart_prods_buy_error {
     background-color: #ffeff1;
     color: #8b3535;
+}
+
+@media screen and (max-width: 1720px) {
+    .cart_main {
+        padding: 0;
+    }
+
+    .cart_summary {
+        position: relative;
+        margin: 50px 0;
+        right: 0;
+    }
+
+    .cart_products {
+        min-height: 50px;
+    }
+
+    .cart_main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .cart_prods_title {
+        max-width: 500px
+    }
+}
+
+@media screen and (max-width: 1425px) {
+    .cart_prods_title {
+        max-width: 350px
+    }
+}
+
+@media screen and (max-width: 1165px) {
+    .cart_prods_title {
+        max-width: 200px
+    }
+}
+
+@media screen and (max-width: 965px) {
+    .cart_products {
+        margin-top: 50px;
+    }
+
+    .cart_prod {
+        flex-direction: column;
+        align-items: cente;
+    }
+
+    .cart_prods_title {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .cart_prods_title {
+        max-width: 255px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .cart_prod_info {
+        flex-direction: column;
+    }
+
+    .cart_buttons {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .cart_summary {
+        width: 80%;
+    }
+
+    .cart_summary input {
+        width: 100%;
+    }
+
+    .cart_buttons {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 490px) {
+
+    .cart_main,
+    .cart_prod_img,
+    .cart_products {
+        width: 100%;
+    }
+
+    .cart_prods_extra_buttons {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .cart_buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cart_buttons button {
+        margin: 12px 0;
+    }
+
+    .cart_summary {
+        height: 550px;
+        padding-bottom: 50px;
+    }
+
+    .unlogged_checkout {
+        margin-top: 100px;
+    }
 }

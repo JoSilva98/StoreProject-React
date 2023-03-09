@@ -31,7 +31,7 @@ export default function CartSingleProduct({ obj, refreshQuantity, removeProduct 
         <img className="cart_prod_img" src={obj.product.image} onClick={() => navigate(`/product/${obj.product.id}`)} />
         <div className="cart_prod_main">
             <div className="cart_prod_info">
-                <p onClick={() => navigate(`/product/${obj.product.id}`)}>{obj.product.title}</p>
+                <p className="cart_prods_title" onClick={() => navigate(`/product/${obj.product.id}`)}>{obj.product.title}</p>
                 <p className="cart_prods_price" onClick={() => navigate(`/product/${obj.product.id}`)}>{obj.product.price * obj.quantity}€</p>
             </div>
             <div className="cart_prod_buttons">

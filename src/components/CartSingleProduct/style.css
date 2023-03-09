@@ -127,13 +127,24 @@
     background-color: rgb(253, 245, 229);
 }
 
-/*
-.text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size: 50px;
-    color: white;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-}*/
+@media screen and (max-width: 965px) {
+    .cart_prod,
+    .cart_prod_main {
+        flex-direction: column;
+    }
+
+    .cart_prod_info {
+        width: 100%;
+        margin: 25px 0 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .cart_prod_buttons {
+        width: 100%;
+        margin: 35px 0 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
