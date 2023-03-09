@@ -22,6 +22,7 @@ Path should be specific to localhost or to: https://store-project-production.up.
 * Context API
 * React hooks
 * Fetch API
+* Responsivity
 * Figma software (for simple design planning)
 
 <br />
