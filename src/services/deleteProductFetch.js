@@ -1,9 +1,12 @@
 export default async function deleteProductFetch(productId, userToken) {
-    await fetch(`${process.env.REACT_APP_API_BASE_URL}/api/v1/admins/products/${productId}`, {
+    const res = await fetch(`/api/v1/admins/products/${productId}`, {
         method: "DELETE",
         headers: {
             'Content-Type': 'application/json',
             Authorization: userToken
         }
     })
+
+    //console.log(res)
+    console.log(new TextDecoder().decode((await res.body.getReader().read()).value))
 }

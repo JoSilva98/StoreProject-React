@@ -15,5 +15,5 @@ export default async function addProductFetch(decryptedToken, formData) {
         })
     }
 
-    return await fetch(process.env.REACT_APP_API_BASE_URL + "/api/v1/admins/products", request)
+    return await fetch("/api/v1/admins/products", request)
 }

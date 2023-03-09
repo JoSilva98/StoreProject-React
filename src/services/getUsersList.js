@@ -6,10 +6,7 @@ export default async function getUsersList(decryptedToken, { word, direction, pa
         }
     }
 
-    const res = await fetch(
-        `${process.env.REACT_APP_API_BASE_URL}/api/v1/admins/users?word=${word}&direction=${direction}&page=${page}&pagesize=${pageSize}`,
-        request
-    )
+    const res = await fetch(`/api/v1/admins/users?word=${word}&direction=${direction}&page=${page}&pagesize=${pageSize}`, request)
     if (res.status !== 200) return res
 
     const json = await res.json()
