@@ -86,3 +86,52 @@
     font-size: 35px;
     font-style: italic;
 }
+
+@media screen and (max-width: 960px) {
+
+    .clothes_img_div,
+    .jewelery_img_div {
+        margin: 0 25px;
+    }
+
+    .jewelery_img_div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .clothes_img {
+        width: 100%;
+    }
+
+    .jewelery_img {
+        width: 70%;
+    }
+
+    .clothes_img,
+    .jewelery_img {
+        height: auto;
+        object-fit: contain;
+    }
+
+    .clothes,
+    .jewelery {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .intro_text {
+        font-size: 35px;
+    }
+
+    .clothes_word,
+    .jewelery_word {
+        font-size: 40px;
+    }
+
+    .clothes_text,
+    .jewelery_text {
+        font-size: 30px;
+    }
+}
