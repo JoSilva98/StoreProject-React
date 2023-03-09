@@ -14,5 +14,5 @@ export default async function updateUser(id, token, formData) {
         })
     }
     
-    return await fetch(`https://store-project-production.up.railway.app/api/v1/users/${id}`, request)
+    return await fetch(`${process.env.REACT_APP_API_BASE_URL}/api/v1/users/${id}`, request)
 }

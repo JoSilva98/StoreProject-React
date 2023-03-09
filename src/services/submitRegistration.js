@@ -5,7 +5,7 @@ export default async function submitRegistration(formData) {
         trimData[prop] = formData[prop].value.trim()
     }
 
-    const res = await fetch("https://store-project-production.up.railway.app/api/v1/users", {
+    const res = await fetch(process.env.REACT_APP_API_BASE_URL + "/api/v1/users", {
         method: "POST",
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
