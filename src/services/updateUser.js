@@ -14,5 +14,5 @@ export default async function updateUser(id, token, formData) {
         })
     }
     
-    return await fetch(`/api/v1/users/${id}`, request)
+    return await fetch(`${process.env.API_URL}/api/v1/users/${id}`, request)
 }

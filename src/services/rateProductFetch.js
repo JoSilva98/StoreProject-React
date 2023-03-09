@@ -7,6 +7,6 @@ export default async function rateProductFetch(userId, userToken, productId, rat
         }
     }
 
-    const res = await fetch(`/api/v1/users/rating?userid=${userId}&productid=${productId}&rating=${rate}`, request)
+    const res = await fetch(`${process.env.API_URL}/api/v1/users/rating?userid=${userId}&productid=${productId}&rating=${rate}`, request)
     return res.status === 200
 }

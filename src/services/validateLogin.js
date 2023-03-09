@@ -1,5 +1,5 @@
 export default async function validateLogin({ email, password }) {
-    return await fetch("/login", {
+    return await fetch(`${process.env.API_URL}/login`, {
         method: "POST",
         headers: {
             'Content-Type': 'application/json'

@@ -6,7 +6,7 @@ export default async function getUser({ id, token }, isAdmin) {
         }
     }
 
-    const link = isAdmin ? "/api/v1/admins/users/" : "/api/v1/users/"
+    const link = `${process.env.API_URL} ${isAdmin ? "/api/v1/admins/users/" : "/api/v1/users/"}`
     const res = await fetch(link + id, request)
     if (res.status === 200) return res
 

@@ -15,6 +15,6 @@ export default async function updateProductFetch(productId, userToken, formData)
         })
     }
 
-    const res = await fetch(`/api/v1/admins/products/${productId}`, request)
+    const res = await fetch(`${process.env.API_URL}/api/v1/admins/products/${productId}`, request)
     return res
 }

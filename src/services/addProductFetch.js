@@ -15,5 +15,5 @@ export default async function addProductFetch(decryptedToken, formData) {
         })
     }
 
-    return await fetch("/api/v1/admins/products", request)
+    return await fetch(`${process.env.API_URL}/api/v1/admins/products`, request)
 }

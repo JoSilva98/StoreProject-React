@@ -5,7 +5,7 @@ export default async function submitRegistration(formData) {
         trimData[prop] = formData[prop].value.trim()
     }
 
-    const res = await fetch("/api/v1/users", {
+    const res = await fetch(`${process.env.API_URL}/api/v1/users`, {
         method: "POST",
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

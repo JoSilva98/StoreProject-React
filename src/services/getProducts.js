@@ -1,6 +1,6 @@
 export default async function getProducts(link, setIsLoading) {
     setIsLoading && setIsLoading(true)
-    const res = await fetch(`/api/v1/users/products${link}`)
+    const res = await fetch(`${process.env.API_URL}/api/v1/users/products${link}`)
 
     if (res.status !== 200) {
         const json = []
