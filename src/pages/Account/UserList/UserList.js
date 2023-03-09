@@ -60,7 +60,7 @@ export default function UserList() {
                             maxLength="100"
                             onKeyDown={searchUser}
                         />
-                        <img src={searchIcon} />
+                        <img src={searchIcon} alt="Search" />
                     </div>
 
                     <div className="users_list_container">

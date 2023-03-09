@@ -49,7 +49,7 @@ export default function Profile() {
                         {user.firstName + " " + user.lastName}
                         {user.lastName?.slice(-1).toUpperCase() === "S" ? "'" : "'s"} Profile
                     </h2>
-                    <img src={userLogo} />
+                    <img src={userLogo} alt="Profile" />
                     <p>{user.dateOfBirth}</p>
                     <p>{user.address}</p>
                     <p>{user.email}</p>
