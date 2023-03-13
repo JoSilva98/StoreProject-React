@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should match snapshot 1`] = `
+<footer
+  className="footer"
+  data-testid="footer-1"
+>
+  <p
+    className="footer_first_p"
+  >
+    João Silva
+  </p>
+  <p>
+    © 2023. All Rights Reserved.
+  </p>
+</footer>
+`;

@@ -24,6 +24,7 @@ Path should be specific to localhost or to: https://store-project-production.up.
 * Fetch API
 * Responsivity
 * Figma software (for simple design planning)
+* Jest
 
 <br />
 

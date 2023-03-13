@@ -108,7 +108,8 @@ export default function Products() {
                             }
                         </div>
 
-                        <PageButtons page={linkProps.page}
+                        <PageButtons 
+                            page={linkProps.page}
                             isLoading={isLoading}
                             movePage={movePage}
                             numberOfPages={numberOfPages}
